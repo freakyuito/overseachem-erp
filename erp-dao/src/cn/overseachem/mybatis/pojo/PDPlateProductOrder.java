@@ -7,7 +7,7 @@ import java.util.Date;
  */
 public class PDPlateProductOrder {
     private Integer machine_number;
-    private String generate_time;
+    private Date generate_time;
     private String maker_name;
     private String approver_name;
     private String receiver_name;
@@ -56,11 +56,11 @@ public class PDPlateProductOrder {
         this.machine_number = machine_number;
     }
 
-    public String getGenerate_time() {
+    public Date getGenerate_time() {
         return generate_time;
     }
 
-    public void setGenerate_time(String generate_time) {
+    public void setGenerate_time(Date generate_time) {
         this.generate_time = generate_time;
     }
 
