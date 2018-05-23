@@ -9,10 +9,22 @@ import java.util.List;
  */
 public interface PDPlatePurchaseOrderMapper {
 
+    public PDPlatePurchaseOrder findOrderByNumber(String number);
+
     public List<PDPlatePurchaseOrder> findOrdersByValidityCode(boolean validity);
 
-    public List<PDPlatePurchaseOrder> findOrdersByAllConditions(String number,String companyName,String receiveTimeStart,String receiveTimeEnd,String deliverTimeStart,String deliverTimeEnd);
+    public List<PDPlatePurchaseOrder> findOrdersByAllConditions(String number, String companyName, String receiveTimeStart, String receiveTimeEnd, String deliverTimeStart, String deliverTimeEnd);
 
     public List<PDPlatePurchaseOrder> findUncheckedOrders();
+
+    public void updateMakerName(String makerName, String orderNumber);
+
+    public void updateProducerName(String makerName, String orderNumber);
+
+    public void updateSalesmanName(String makerName, String orderNumber);
+
+    public void updateSupervisorName(String makerName, String orderNumber);
+
+    public void insertOrder(PDPlatePurchaseOrder order);
 
 }

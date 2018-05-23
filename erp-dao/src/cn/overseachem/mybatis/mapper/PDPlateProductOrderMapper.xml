@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 写Sql语句   -->
+<mapper namespace="cn.overseachem.mybatis.mapper.PDPlateProductOrderMapper">
+
+
+    <insert id="insertOrder" parameterType="PDPlateProductOrder">
+		insert into PD_Plate_productOrder (machine_number,generate_time,maker_name,fk_purchaseOrder_number,productCompany_name)
+		values (#{machine_number},#{generate_time},#{maker_name},#{fk_purchaseOrder_number},#{productCompany_name});
+	</insert>
+
+</mapper>

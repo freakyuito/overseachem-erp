@@ -1,7 +1,9 @@
 package cn.overseachem.mybatis.junit;
 
 import cn.overseachem.mybatis.mapper.PDPlatePurchaseOrderMapper;
+import cn.overseachem.mybatis.mapper.PDPlatePurchaseOrderSpecMapper;
 import cn.overseachem.mybatis.pojo.PDPlatePurchaseOrder;
+import cn.overseachem.mybatis.pojo.PDPlatePurchaseOrderSpec;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -41,6 +43,29 @@ public class JunitTest {
             System.out.println(s.getPurchaseOrder_number() + s.getSalesman_name());
         }
 
+
+    }
+
+    public void addPurchaseOrder(PDPlatePurchaseOrder order, List<PDPlatePurchaseOrderSpec> specs) {
+        ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+
+        PDPlatePurchaseOrderMapper mapper = ac.getBean(PDPlatePurchaseOrderMapper.class);
+        PDPlatePurchaseOrderSpecMapper mapper2 = ac.getBean(PDPlatePurchaseOrderSpecMapper.class);
+
+        mapper.insertOrder(order);
+
+        for (PDPlatePurchaseOrderSpec s : specs
+                ) {
+            mapper2.insertSpec(order.getPurchaseOrder_number(),s);
+        }
+    }
+
+    public void generateProductOrder(String sourceOrderNumber){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+
+        PDPlatePurchaseOrderMapper mapper = ac.getBean(PDPlatePurchaseOrderMapper.class);
+
+        PDPlatePurchaseOrder sourceOrder = mapper.findOrderByNumber(sourceOrderNumber);
 
     }
 }
