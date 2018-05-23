@@ -29,8 +29,6 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="login.html"><strong>上海晟海集团</strong></a>
-
-            <div id="sideNav" href=""><i class="fa fa-caret-right"></i></div>
         </div>
 
         <ul class="nav navbar-top-links navbar-right">
@@ -98,8 +96,7 @@
                                     <span class="pull-right text-muted">60% 完成度</span>
                                 </p>
                                 <div class="progress progress-striped active">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60"
-                                         aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                                         <span class="sr-only">60% 完成度 (成功)</span>
                                     </div>
                                 </div>
@@ -115,8 +112,7 @@
                                     <span class="pull-right text-muted">28% 完成度</span>
                                 </p>
                                 <div class="progress progress-striped active">
-                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="28"
-                                         aria-valuemin="0" aria-valuemax="100" style="width: 28%">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100" style="width: 28%">
                                         <span class="sr-only">28% 完成度</span>
                                     </div>
                                 </div>
@@ -132,8 +128,7 @@
                                     <span class="pull-right text-muted">60% 完成度</span>
                                 </p>
                                 <div class="progress progress-striped active">
-                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
-                                         aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                                         <span class="sr-only">60% 完成度 (警告)</span>
                                     </div>
                                 </div>
@@ -149,8 +144,7 @@
                                     <span class="pull-right text-muted">85% 完成度</span>
                                 </p>
                                 <div class="progress progress-striped active">
-                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="85"
-                                         aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
                                         <span class="sr-only">85% 完成度 (危险)</span>
                                     </div>
                                 </div>
@@ -252,7 +246,22 @@
             <ul class="nav" id="main-menu">
 
                 <li>
-                    <a class="active-menu" href="#"><i class="fa fa-dashboard"></i> 工程检视</a>
+                    <a href="example-pages/empty.html"><i class="fa fa-dashboard"></i> 主页</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-edit"></i> 销售部门<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="#">板材销售<span class="fa arrow"></span></a>
+                            <ul class="nav nav-third-level">
+                                <li>
+                                    <a href="PD_Plate_purchaseOrder-list.html">板材订单列表</a>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                    </ul>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-sitemap"></i> 生产部门<span class="fa arrow"></span></a>
@@ -261,46 +270,52 @@
                             <a href="#">板材生产<span class="fa arrow"></span></a>
                             <ul class="nav nav-third-level">
                                 <li>
-                                    <a href="plate_ins-list.html">生产指令</a>
+                                    <a href="PD_Plate_productOrder-list.html">生产指令列表</a>
                                 </li>
                                 <li>
-                                    <a href="plate_trk-list.html">质量跟踪</a>
+                                    <a href="PD_Plate_packingList-list.html">装箱列表</a>
                                 </li>
                                 <li>
-                                    <a href="plate_pack-list.html">装箱</a>
+                                    <a href="PD_Plate_godownEntry-list.html">入库列表</a>
                                 </li>
                                 <li>
-                                    <a href="plate_test-list.html">质量检测</a>
+                                    <a href="PD_Plate_qualityInspection-list.html">质量检测列表</a>
                                 </li>
                                 <li>
-                                    <a href="plate_godown-list.html">入库单</a>
+                                    <a href="PD_Plate_qualityTrack-list.html">质量跟踪列表</a>
                                 </li>
                                 <li>
-                                    <a href="plate_craftrec-list.html">工艺记录</a>
+                                    <a href="#">送货列表</a>
                                 </li>
                                 <li>
-                                    <a href="plate_perfeval-list.html">绩效考核</a>
+                                    <a href="PD_Plate_plateMachineRecord-list.html">板材机记录列表</a>
+                                </li>
+                                <li>
+                                    <a href="PD_Plate_sheetMachineRecord-list.html">片材机记录列表</a>
+                                </li>
+                                <li>
+                                    <a href="PD_Plate_craftRecord-list.html"工艺记录</a>
                                 </li>
                             </ul>
 
                         </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-desktop"></i> 销售部门</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-bar-chart-o"></i> 财务部门</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-qrcode"></i> 物流部门</a>
-                </li>
+                        <li>
+                            <a href="#">箱包生产<span class="fa arrow"></span></a>
+                            <ul class="nav nav-third-level">
+                                <li>
+                                    <a href="#">Third Level Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Level Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Level Link</a>
+                                </li>
 
-                <li>
-                    <a href="#"><i class="fa fa-table"></i> 公关部门</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-edit"></i> 箱包部门 </a>
+                            </ul>
+
+                        </li>
+                    </ul>
                 </li>
             </ul>
 
@@ -312,7 +327,7 @@
     <div id="page-wrapper">
         <div class="header">
             <h1 class="page-header">
-                板材生产 <small>装箱单列表</small>
+                板材生产 <small>质量测试列表</small>
             </h1>
         </div>
         <div id="page-inner">
@@ -321,7 +336,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4>
-                                产品规格
+                                检测记录
                             </h4>
                         </div>
                         <div class="panel-body">
@@ -331,20 +346,11 @@
                                     <tr>
                                         <th>订单号</th>
                                         <th>批号</th>
-                                        <th>开始时间</th>
-                                        <th>结束时间</th>
                                         <th>规格</th>
-                                        <th>订单数量</th>
-                                        <th>序号</th>
-                                        <th>成品数量</th>
                                         <th>颜色</th>
-                                        <th>成品重量</th>
-                                        <th>废品重量</th>
-                                        <th>班长</th>
-                                        <th>验板人</th>
-                                        <th>机长</th>
-                                        <th>加料工</th>
-                                        <th>记录人</th>
+                                        <th>生产时间</th>
+                                        <th>检测时间</th>
+                                        <th>实际厚度</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -353,49 +359,22 @@
                                             <a href="plate_ins-info.html">18314</a>
                                         </td>
                                         <td>
-                                            <a href="plate_pack-info.html">JY180352</a>
-                                        </td>
-                                        <td>
-                                            2018-05-12 14:52:06
-                                        </td>
-                                        <td>
-                                            2018-05-12 14:52:06
-                                        </td>
-                                        <td>
-                                            待定
+                                            <a href="plate_test-info.html">JY180352</a>
                                         </td>
                                         <td>
                                             635*465*2.6
                                         </td>
                                         <td>
-                                            400
+                                            xxx
                                         </td>
                                         <td>
-                                            待定
+                                            2018-05-12 14:52:06
                                         </td>
                                         <td>
-                                            待定
+                                            2018-05-12 14:52:06
                                         </td>
                                         <td>
-                                            待定
-                                        </td>
-                                        <td>
-                                            待定
-                                        </td>
-                                        <td>
-                                            待定
-                                        </td>
-                                        <td>
-                                            待定
-                                        </td>
-                                        <td>
-                                            待定
-                                        </td>
-                                        <td>
-                                            待定
-                                        </td>
-                                        <td>
-                                            待定
+                                            xxx
                                         </td>
                                     </tr>
                                     </tbody>

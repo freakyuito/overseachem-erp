@@ -2,27 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4de5b3c0-c7b6-4954-be5a-176eb355605d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/erp-dao/out/production/erp-dao/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/erp-dao/out/production/erp-dao/cn/overseachem/mybatis/junit/JunitTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/erp-dao/out/production/erp-dao/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/erp-dao/out/production/erp-dao/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/erp-dao/out/production/erp-dao/cn/overseachem/mybatis/pojo/PDPlatePurchaseOrder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/erp-dao/out/production/erp-dao/db.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/erp-dao/out/production/erp-dao/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/erp-dao/out/production/erp-dao/sqlMapConfig.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/overseachem-erp.iml" afterPath="$PROJECT_DIR$/.idea/overseachem-erp.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_pack-info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_pack-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_pack-mod.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_perfeval-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_trk-add.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_trk-info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_trk-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_trk-mod.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/.idea/workspace.xml" afterPath="$PROJECT_DIR$/erp-dao/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/junit/JunitTest.java" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/junit/JunitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.java" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.xml" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.java" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.xml" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.java" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.xml" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrder.java" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrderSpec.java" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrderSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_craftrec-add.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_craftrec-add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_craftrec-info.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_craftrec-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_craftrec-mod.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_craftrec-mod.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_godown-add.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_godown-add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_godown-info.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_godown-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_godown-mod.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_godown-mod.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_ins-add.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_ins-add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_ins-info.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_ins-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_ins-mod.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_ins-mod.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_machcraft-add.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_machcraft-add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_machcraft-info.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_machcraft-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_machcraft-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_machcraft-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_packing-add.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_packing-add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_packing-info.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_packing-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_platemach-add.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_platemach-add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_platemach-info.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_platemach-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_test-add.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_test-add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_test-info.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_test-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_test-mod.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_test-mod.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_track-add.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_track-add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_track-info.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_track-info.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_craftrec-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_craftRecord-list.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_godown-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_godownEntry-list.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_ins-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder-list.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_packing-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-list.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_platemach-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_plateMachineRecord-list.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_test-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityInspection-list.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_track-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityTrack-list.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,133 +50,147 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PDPlatePurchaseOrderMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.xml">
+      <file leaf-file-name="PD_Plate_purchaseOrder-list.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="7" column="79" lean-forward="false" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
+            <state relative-caret-position="177">
+              <caret line="325" column="92" lean-forward="false" selection-start-line="325" selection-start-column="92" selection-end-line="325" selection-end-column="92" />
               <folding>
-                <marker date="1527059757537" expanded="true" signature="313:383" ph="SELECT * FRO... PD_Plate_purchaseOrder" />
-                <marker date="1527059757537" expanded="true" signature="488:604" ph="select * fro... PD_Plate_purchaseOrder" />
-                <marker date="1527059757537" expanded="true" signature="695:898" ph="select * FRO... PD_Plate_purchaseOrder" />
-                <marker date="1527059757537" expanded="true" signature="1164:1227" ph="select * fro... PD_Plate_purchaseOrder" />
-                <marker date="1527059757537" expanded="true" signature="1274:1377" ph="UPDATE PD_Pl... " />
-                <marker date="1527059757537" expanded="true" signature="1427:1537" ph="UPDATE PD_Pl... " />
-                <marker date="1527059757537" expanded="true" signature="1587:1697" ph="UPDATE PD_Pl... " />
-                <marker date="1527059757537" expanded="true" signature="1749:1863" ph="UPDATE PD_Pl... " />
-                <marker date="1527059757537" expanded="true" signature="1943:2182" ph="INSERT INTO PD_Plate_purchaseOrder... " />
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JunitTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/junit/JunitTest.java">
+      <file leaf-file-name="PD_Plate_purchaseOrder-add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="65" column="38" lean-forward="false" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+            <state relative-caret-position="412">
+              <caret line="380" column="66" lean-forward="false" selection-start-line="380" selection-start-column="66" selection-end-line="380" selection-end-column="66" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDPlateProductOrderSpec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrderSpec.java">
+      <file leaf-file-name="ui-elements.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/example-pages/ui-elements.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDPlateProductOrderMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDPlateProductOrderSpecMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="611">
+              <caret line="500" column="50" lean-forward="true" selection-start-line="491" selection-start-column="44" selection-end-line="500" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDPlateProductOrderSpecMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.xml">
+      <file leaf-file-name="PD_Plate_purchaseOrder-dtl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-dtl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="923">
+              <caret line="439" column="33" lean-forward="false" selection-start-line="439" selection-start-column="33" selection-end-line="439" selection-end-column="33" />
               <folding>
-                <marker date="1527067841305" expanded="true" signature="375:473" ph="SELECT * FRO... PD_Plate_productOrder_spec" />
-                <marker date="1527067841305" expanded="true" signature="679:885" ph="insert into PD_Plate_productOrder_spec... " />
-                <marker date="1527067841305" expanded="true" signature="955:1109" ph="SELECT COUNT... PD_Plate_productOrder_spec" />
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#tfoot#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDPlateProductOrderMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.xml">
+      <file leaf-file-name="tab-panel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/example-pages/tab-panel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="70" />
-              <folding>
-                <marker date="1527063348854" expanded="true" signature="329:525" ph="insert into PD_Plate_productOrder... " />
-                <marker date="1527063348854" expanded="true" signature="598:696" ph="SELECT COUNT... PD_Plate_productOrder" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDPlateProductOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-              <folding>
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#1624#1625#0" expanded="true" />
-                <element signature="e#1674#1675#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDPlatePurchaseOrderSpecMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="64" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDPlatePurchaseOrderSpecMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.xml">
+      <file leaf-file-name="table.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/example-pages/table.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="345">
+              <caret line="746" column="18" lean-forward="true" selection-start-line="318" selection-start-column="12" selection-end-line="746" selection-end-column="18" />
               <folding>
-                <marker date="1527063515929" expanded="true" signature="352:434" ph="SELECT * FRO... PD_Plate_purchaseOrder_spec" />
-                <marker date="1527063515929" expanded="true" signature="529:674" ph="insert into PD_Plate_purchaseOrder_spec... " />
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PD_Plate_craftRecord-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_craftRecord-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="302" column="29" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="302" selection-end-column="29" />
+              <folding>
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PD_Plate_packingList-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="302" column="25" lean-forward="false" selection-start-line="302" selection-start-column="25" selection-end-line="302" selection-end-column="25" />
+              <folding>
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PD_Plate_plateMachineRecord-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_plateMachineRecord-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="302" column="25" lean-forward="false" selection-start-line="302" selection-start-column="25" selection-end-line="302" selection-end-column="25" />
+              <folding>
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PD_Plate_productOrder-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="301" column="25" lean-forward="false" selection-start-line="301" selection-start-column="25" selection-end-line="301" selection-end-column="25" />
+              <folding>
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -174,6 +204,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>simple butto</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -198,6 +233,17 @@
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrderSpec.java" />
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.xml" />
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/junit/JunitTest.java" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityInspection-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityTrack-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_sheetMachineRecord-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_craftRecord-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_godownEntry-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_plateMachineRecord-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-dtl.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-add.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-list.html" />
       </list>
     </option>
   </component>
@@ -256,6 +302,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="erp_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="overseachem-erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="overseachem-erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="overseachem-erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="overseachem-erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-sys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="overseachem-erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="overseachem-erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos-sys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example-pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,10 +535,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\software-dev\workspace\java-ee\overseachem-erp\erp_web\web\bos-sys" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.overseachem.mybatis.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software-dev\workspace\java-ee\overseachem-erp\erp_web\web\bos-sys" />
+      <recent name="D:\software-dev\workspace\java-ee\overseachem-erp\erp_web\web\bos-sys\example-pages" />
       <recent name="C:\Users\Zhihui_Shen\Documents\GitHub\overseachem-erp\erp-dao\src\cn\overseachem\mybatis\mapper" />
     </key>
   </component>
@@ -876,7 +993,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527037183440</updated>
       <workItem from="1527037187777" duration="4674000" />
-      <workItem from="1527059819486" duration="8444000" />
+      <workItem from="1527059819486" duration="16328000" />
     </task>
     <servers />
   </component>
@@ -913,10 +1030,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13118000" />
+    <option name="totallyTimeSpent" value="21002000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -928,7 +1045,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1249,6 +1366,177 @@
           <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityInspection-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="324" column="25" lean-forward="false" selection-start-line="324" selection-start-column="25" selection-end-line="324" selection-end-column="25" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityTrack-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="324" column="25" lean-forward="false" selection-start-line="324" selection-start-column="25" selection-end-line="324" selection-end-column="25" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_sheetMachineRecord-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="324" column="25" lean-forward="false" selection-start-line="324" selection-start-column="25" selection-end-line="324" selection-end-column="25" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_godownEntry-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="302" column="25" lean-forward="false" selection-start-line="302" selection-start-column="25" selection-end-line="302" selection-end-column="25" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="302" column="25" lean-forward="false" selection-start-line="302" selection-start-column="25" selection-end-line="302" selection-end-column="25" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_plateMachineRecord-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="302" column="25" lean-forward="false" selection-start-line="302" selection-start-column="25" selection-end-line="302" selection-end-column="25" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="301" column="25" lean-forward="false" selection-start-line="301" selection-start-column="25" selection-end-line="301" selection-end-column="25" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_craftRecord-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="302" column="29" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="302" selection-end-column="29" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/example-pages/tab-panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/example-pages/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="746" column="18" lean-forward="true" selection-start-line="318" selection-start-column="12" selection-end-line="746" selection-end-column="18" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="380" column="66" lean-forward="false" selection-start-line="380" selection-start-column="66" selection-end-line="380" selection-end-column="66" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/example-pages/ui-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="500" column="50" lean-forward="true" selection-start-line="491" selection-start-column="44" selection-end-line="500" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-dtl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="923">
+          <caret line="439" column="33" lean-forward="false" selection-start-line="439" selection-start-column="33" selection-end-line="439" selection-end-column="33" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#tfoot#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="325" column="92" lean-forward="false" selection-start-line="325" selection-start-column="92" selection-end-line="325" selection-end-column="92" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

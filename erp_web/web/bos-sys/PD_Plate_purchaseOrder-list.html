@@ -1,6 +1,5 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -9,15 +8,11 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet"/>
     <!-- FontAwesome Styles-->
     <link href="assets/css/font-awesome.css" rel="stylesheet"/>
-    <!-- Morris Chart Styles-->
-    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet"/>
     <!-- Custom Styles-->
     <link href="assets/css/custom-styles.css" rel="stylesheet"/>
     <!-- Google Fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
-    <link rel="stylesheet" href="assets/js/Lightweight-Chart/cssCharts.css">
+    <link href='../https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
 </head>
-
 <body>
 <div id="wrapper">
     <nav class="navbar navbar-default top-navbar" role="navigation">
@@ -29,8 +24,6 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="login.html"><strong>上海晟海集团</strong></a>
-
-            <div id="sideNav" href=""><i class="fa fa-caret-right"></i></div>
         </div>
 
         <ul class="nav navbar-top-links navbar-right">
@@ -250,9 +243,21 @@
     <nav class="navbar-default navbar-side" role="navigation">
         <div class="sidebar-collapse">
             <ul class="nav" id="main-menu">
-
                 <li>
-                    <a class="active-menu" href="#"><i class="fa fa-dashboard"></i> 工程检视</a>
+                    <a href="example-pages/empty.html"><i class="fa fa-dashboard"></i> 主页</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-edit"></i> 销售部门<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="#">板材销售<span class="fa arrow"></span></a>
+                            <ul class="nav nav-third-level">
+                                <li>
+                                    <a href="PD_Plate_purchaseOrder-list.html">板材订单列表</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-sitemap"></i> 生产部门<span class="fa arrow"></span></a>
@@ -261,46 +266,35 @@
                             <a href="#">板材生产<span class="fa arrow"></span></a>
                             <ul class="nav nav-third-level">
                                 <li>
-                                    <a href="plate_ins-list.html">生产指令</a>
+                                    <a href="PD_Plate_productOrder-list.html">生产指令列表</a>
                                 </li>
                                 <li>
-                                    <a href="plate_trk-list.html">质量跟踪</a>
+                                    <a href="PD_Plate_packingList-list.html">装箱列表</a>
                                 </li>
                                 <li>
-                                    <a href="plate_pack-list.html">装箱</a>
+                                    <a href="PD_Plate_godownEntry-list.html">入库列表</a>
                                 </li>
                                 <li>
-                                    <a href="plate_test-list.html">质量检测</a>
+                                    <a href="PD_Plate_qualityInspection-list.html">质量检测列表</a>
                                 </li>
                                 <li>
-                                    <a href="plate_godown-list.html">入库单</a>
+                                    <a href="PD_Plate_qualityTrack-list.html">质量跟踪列表</a>
                                 </li>
                                 <li>
-                                    <a href="plate_craftrec-list.html">工艺记录</a>
+                                    <a href="#">送货列表</a>
                                 </li>
                                 <li>
-                                    <a href="plate_perfeval-list.html">绩效考核</a>
+                                    <a href="PD_Plate_plateMachineRecord-list.html">板材机记录列表</a>
+                                </li>
+                                <li>
+                                    <a href="PD_Plate_sheetMachineRecord-list.html">片材机记录列表</a>
+                                </li>
+                                <li>
+                                    <a href="PD_Plate_craftRecord-list.html">工艺记录</a>
                                 </li>
                             </ul>
-
                         </li>
                     </ul>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-desktop"></i> 销售部门</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-bar-chart-o"></i> 财务部门</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-qrcode"></i> 物流部门</a>
-                </li>
-
-                <li>
-                    <a href="#"><i class="fa fa-table"></i> 公关部门</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-edit"></i> 箱包部门 </a>
                 </li>
             </ul>
 
@@ -312,152 +306,79 @@
     <div id="page-wrapper">
         <div class="header">
             <h1 class="page-header">
-                板材生产 <small>装箱单明细（浏览模式）</small>
-                <a class="btn btn-primary" href="plate_pack-mod.html">编辑该条指令</a>
+                板材部门
+                <small>板材订单列表</small>
             </h1>
+            <ol class="breadcrumb">
+                <li><a href="#">主页</a></li>
+                <li>生产部门</li>
+                <li>板材部门</li>
+            </ol>
+
         </div>
+
         <div id="page-inner">
             <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-12">
+                    <!-- Advanced Tables -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <small>基本信息</small>
+                            <a class="btn btn-primary" href="PD_Plate_purchaseOrder-add.html">添加新订单</a>
+                            <div class="btn-group pull-right">
+                                <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">默认 <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">默认</a></li>
+                                    <li><a href="#">进行中</a></li>
+                                    <li><a href="#">待开始</a></li>
+                                    <li><a href="#">已完成</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">待审批</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">待发货</a></li>
+                                    <li><a href="#">已发货</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">作废</a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="panel-body">
                             <div class="table-responsive">
-                                <table class="table table-condensed">
+                                <table class="table table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                     <tr>
-                                        <th>订单号</th>
-                                        <th>颜色</th>
-                                        <th>装箱日期</th>
-                                        <th>装箱单号</th>
+                                        <th style="text-align: center">序号</th>
+                                        <th style="text-align: center">客户名</th>
+                                        <th style="text-align: center">订单号</th>
+                                        <th style="text-align: center">订货日期</th>
+                                        <th style="text-align: center">交货日期</th>
+                                        <th style="text-align: center">订单进度</th>
+                                        <th style="text-align: center">备注</th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td>
-                                            18314
-                                        </td>
-                                        <td>
-                                            V22
-                                        </td>
-                                        <td>
-                                            2018-05-12 23:03:19
-                                        </td>
-                                        <td>
-                                            xxx
-                                        </td>
+                                        <td style="text-align: center">1</td>
+                                        <td style="text-align: center">大飞欧</td>
+                                        <td style="text-align: center"><a href="PD_Plate_purchaseOrder-dtl.html">18-6-11</td>
+                                        <td style="text-align: center">2018-05-11</td>
+                                        <td style="text-align: center">2018-05-20</td>
+                                        <td style="text-align: center">2545/3658</td>
+                                        <td style="text-align: center"></td>
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
+
                         </div>
                     </div>
-                </div>
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <small>清单列表</small>
-                        </div>
-                        <div class="panel-body">
-                            <div class="table-responsive">
-                                <table class="table table-hover table-condensed">
-                                    <thead>
-                                    <tr>
-                                        <th>规格</th>
-                                        <th>批号</th>
-                                        <th>数量/片</th>
-                                        <th>重量/kg</th>
-                                        <th>备注</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>
-                                            18314
-                                        </td>
-                                        <td>
-                                            JY180352
-                                        </td>
-                                        <td>
-                                            xxx
-                                        </td>
-                                        <td>
-                                            xxx
-                                        </td>
-                                        <td>
-                                            xxx
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            合计
-                        </div>
-                        <div class="panel-body">
-                            <div class="table-responsive">
-                                <table class="table table-hover table-condensed">
-                                    <thead>
-                                    <tr>
-                                        <th>数量/片</th>
-                                        <th>重量/kg</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>
-                                            18314
-                                        </td>
-                                        <td>
-                                            JY180352
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            署名
-                        </div>
-                        <div class="panel-body">
-                            <div class="table-responsive">
-                                <table class="table table-hover table-condensed">
-                                    <thead>
-                                    <tr>
-                                        <th>班组</th>
-                                        <th>制单人</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>
-                                            xxx
-                                        </td>
-                                        <td>
-                                            xxx
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+                    <!--End Advanced Tables -->
                 </div>
             </div>
+            <footer/>
         </div>
-        <footer><p>Copyright &copy; 2018.Overseachem All rights reserved.</p></footer>
+        <!-- /. PAGE INNER  -->
     </div>
+    <!-- /. PAGE WRAPPER  -->
 </div>
 <!-- /. WRAPPER  -->
 <!-- JS Scripts-->
@@ -465,26 +386,11 @@
 <script src="assets/js/jquery-1.10.2.js"></script>
 <!-- Bootstrap Js -->
 <script src="assets/js/bootstrap.min.js"></script>
-
 <!-- Metis Menu Js -->
 <script src="assets/js/jquery.metisMenu.js"></script>
-<!-- Morris Chart Js -->
-<script src="assets/js/morris/raphael-2.1.0.min.js"></script>
-<script src="assets/js/morris/morris.js"></script>
-
-
-<script src="assets/js/easypiechart.js"></script>
-<script src="assets/js/easypiechart-data.js"></script>
-
-<script src="assets/js/Lightweight-Chart/jquery.chart.js"></script>
-
 <!-- Custom Js -->
 <script src="assets/js/custom-scripts.js"></script>
 
-<script>
-
-</script>
 
 </body>
-
 </html>
