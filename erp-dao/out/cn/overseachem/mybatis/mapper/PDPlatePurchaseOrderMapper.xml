@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 写Sql语句   -->
+<mapper namespace="cn.overseachem.mybatis.mapper.PDPlatePurchaseOrderMapper">
+	<select id="findOrderByNumber" resultType="PDPlatePurchaseOrder">
+		SELECT * FROM PD_Plate_purchaseOrder WHERE purchaseOrder_number = #{v};
+	</select>
+	<!-- 通过ID查询一个用户 -->
+	<select id="findUncheckedOrders" resultType="PDPlatePurchaseOrder">
+		select * from PD_Plate_purchaseOrder where supervisor_name IS NULL OR salesman_name IS NULL OR producer_name IS NULL;
+	</select>
+
+	<select id="findOrdersByAllConditions" resultType="PDPlatePurchaseOrder">
+		select * FROM PD_Plate_purchaseOrder where  purchaseOrder_number LIKE "%"#{0}"%" AND purchaseCompany_name like "%"#{1}"%" AND receive_time between  #{2}  and #{3} AND deliver_time between  #{4}  and #{5};
+	</select>
+	
+	<!-- //根据用户名称模糊查询用户列表
+	#{}    select * from user where id = ？    占位符  ? ==  '五'
+	${}    select * from user where username like '%五%'  字符串拼接  
+	
+	 -->
+	<select id="findOrdersByValidityCode" parameterType="boolean" resultType="PDPlatePurchaseOrder">
+		select * from PD_Plate_purchaseOrder where validity_code = #{v};
+	</select>
+
+	<update id="updateMakerName">
+		UPDATE PD_Plate_purchaseOrder SET maker_name = #{makerName} WHERE purchaseOrder_number = #{orderNumber};
+	</update>
+
+	<update id="updateProducerName">
+		UPDATE PD_Plate_purchaseOrder SET producer_name = #{producer_name} WHERE purchaseOrder_number = #{orderNumber};
+	</update>
+
+	<update id="updateSalesmanName">
+		UPDATE PD_Plate_purchaseOrder SET salesman_name = #{salesman_name} WHERE purchaseOrder_number = #{orderNumber};
+	</update>
+
+	<update id="updateSupervisorName">
+		UPDATE PD_Plate_purchaseOrder SET supervisor_name = #{supervisor_name} WHERE purchaseOrder_number = #{orderNumber};
+	</update>
+
+	<insert id="insertOrder" parameterType="PDPlatePurchaseOrder">
+		INSERT INTO PD_Plate_purchaseOrder (purchaseOrder_number,purchaseCompany_name,receive_time,deliver_time,quantity_amount,validity_code)
+		VALUES (#{orderNumber},#{companyName},#{receiveTime},#{deliverTime},#{quantityAmount},#{validityCode});
+	</insert>
+	<!---->
+	<!--&lt;!&ndash; 添加用户 &ndash;&gt;-->
+	<!--<insert id="insertUser" parameterType="com.itheima.mybatis.pojo.User">-->
+		<!--<selectKey keyProperty="id" resultType="Integer" order="AFTER">-->
+			<!--select LAST_INSERT_ID()-->
+		<!--</selectKey>-->
+		<!--insert into user (username,birthday,address,sex) -->
+		<!--values (#{username},#{birthday},#{address},#{sex})-->
+	<!--</insert>-->
+	<!---->
+	<!--&lt;!&ndash; 更新 &ndash;&gt;-->
+	<!--<update id="updateUserById" parameterType="com.itheima.mybatis.pojo.User">-->
+		<!--update user -->
+		<!--set username = #{username},sex = #{sex},birthday = #{birthday},address = #{address}-->
+		<!--where id = #{id}-->
+	<!--</update>-->
+	<!---->
+	<!--&lt;!&ndash; 删除 &ndash;&gt;-->
+	<!--<delete id="deleteUserById" parameterType="Integer">-->
+		<!--delete from user -->
+		<!--where id = #{vvvvv}-->
+	<!--</delete>-->
+
+
+</mapper>

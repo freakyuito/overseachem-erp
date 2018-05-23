@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 写Sql语句   -->
+<mapper namespace="cn.overseachem.mybatis.mapper.PDPlateProductOrderSpecMapper">
+	<!-- 通过ID查询一个用户 state_code=0待开始 1正在进行 -1暂停 2已完成-->
+	<select id="findOrdersByStateCode" resultType="PDPlateProductOrderSpec">
+		SELECT * FROM PD_Plate_productOrder_spec GROUP BY  productOrder_number WHERE state_code = #{VALUE};
+	</select>
+
+	<select id="findOrdersByPurchaseNumberAndStateCode" resultType="PDPlateProductOrderSpec">
+		SELECT * FROM PD_Plate_productOrder_spec GROUP BY  productOrder_number WHERE state_code = #{VALUE};
+	</select>
+
+	<insert id="insertOrdersSpec" parameterType="PDPlateProductOrderSpec">
+	<!--<selectKey keyProperty="id" resultType="Integer" order="AFTER">-->
+	<!--select LAST_INSERT_ID()-->
+	<!--</selectKey>-->
+	insert into PD_Plate_productOrder_spec (state_code,batch_number,productOrder_number,quantityCompleted_amount)
+	values (#{state_code},#{batch_number},#{productOrder_number},#{quantityCompleted_amount});
+	</insert>
+
+</mapper>
