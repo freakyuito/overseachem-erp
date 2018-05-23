@@ -1,6 +1,7 @@
 package cn.overseachem.mybatis.mapper;
 
 import cn.overseachem.mybatis.pojo.PDPlateProductOrderSpec;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -9,8 +10,10 @@ import java.util.List;
  */
 public interface PDPlateProductOrderSpecMapper {
 
-    public void insertOrdersSpec(PDPlateProductOrderSpec spec);
+    public void insertSpec(PDPlateProductOrderSpec spec);
 
 //    state_code=0待开始 1正在进行 -1暂停 2已完成
     public List<PDPlateProductOrderSpec> findOrdersByStateCode(Integer stateCode);
+
+    public Integer countSpecsInMonth(@Param("monthBegin") String monthBegin,@Param("monthEnd") String monthEnd);
 }

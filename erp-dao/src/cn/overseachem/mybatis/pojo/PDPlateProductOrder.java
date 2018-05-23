@@ -1,6 +1,6 @@
 package cn.overseachem.mybatis.pojo;
 
-import java.util.Date;
+import java.sql.Date;
 
 /**
  * Created by Zhihui_Shen on 2018/5/23.

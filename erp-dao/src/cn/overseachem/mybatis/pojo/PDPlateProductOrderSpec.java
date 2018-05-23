@@ -7,8 +7,17 @@ public class PDPlateProductOrderSpec {
 
     private String state_code;
     private String batch_number;
-    private String productOrder_number;
+    private String fk_productOrder_number;
     private int quantityCompleted_amount;
+
+    public String getFk_productOrder_number() {
+        return fk_productOrder_number;
+    }
+
+    public void setFk_productOrder_number(String fk_productOrder_number) {
+        this.fk_productOrder_number = fk_productOrder_number;
+    }
+
 
     public String getState_code() {
         return state_code;
@@ -24,14 +33,6 @@ public class PDPlateProductOrderSpec {
 
     public void setBatch_number(String batch_number) {
         this.batch_number = batch_number;
-    }
-
-    public String getProductOrder_number() {
-        return productOrder_number;
-    }
-
-    public void setProductOrder_number(String productOrder_number) {
-        this.productOrder_number = productOrder_number;
     }
 
     public int getQuantityCompleted_amount() {

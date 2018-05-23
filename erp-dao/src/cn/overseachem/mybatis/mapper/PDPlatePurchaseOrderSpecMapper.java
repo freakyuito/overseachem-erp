@@ -11,4 +11,6 @@ import java.util.List;
 public interface PDPlatePurchaseOrderSpecMapper {
 
     public void insertSpec(String orderNumber,PDPlatePurchaseOrderSpec spec);
+
+    public List<PDPlatePurchaseOrderSpec> findSpecsByOrderNumber(String orderNumber);
 }
