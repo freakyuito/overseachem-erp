@@ -16,4 +16,9 @@ public interface PDPlatePurchaseOrderSpecMapper {
     public List<PDPlatePurchaseOrderSpec> findSpecsByOrderNumber(String orderNumber);
 
     public Integer countSpecsInMonth(@Param("monthBegin") String monthBegin, @Param("monthEnd") String monthEnd);
+
+    public List<PDPlatePurchaseOrderSpec> groupSpecsByColorId(String orderNumber);
+
+    public List<PDPlatePurchaseOrderSpec> findSpecsByOrderNumberAndColorId(@Param("orderNumber") String orderNumber,@Param("colorId") String colorId);
+
 }

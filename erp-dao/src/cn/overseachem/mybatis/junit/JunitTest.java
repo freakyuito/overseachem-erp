@@ -68,7 +68,6 @@ public class JunitTest {
     }
 
     public void addPurchaseOrder(PDPlatePurchaseOrder order, List<PDPlatePurchaseOrderSpec> specs) {
-        //自动生成子项批号
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         PDPlatePurchaseOrderMapper mapper = ac.getBean(PDPlatePurchaseOrderMapper.class);
@@ -78,6 +77,7 @@ public class JunitTest {
 
         for (PDPlatePurchaseOrderSpec s : specs
                 ) {
+            //自动生成子项批号
             s.setBatch_number(generateBatchNumber(new Date()));
             mapper2.insertSpec(order.getPurchaseOrder_number(), s);
         }
@@ -96,45 +96,37 @@ public class JunitTest {
 
         PDPlateProductOrder productOrder = new PDPlateProductOrder();
 
-        Date utilDate = new Date();
-
-        java.sql.Date sqlDate = new java.sql.Date(utilDate.getTime());
-        productOrder.setGenerate_time(sqlDate);
-        productOrder.setFk_purchaseOrder_number(sourceOrderNumber);
-
-        String productOrderNumber = generateProductOrderNumber(utilDate);
-
-        productOrder.setProductOrder_number(productOrderNumber);
-
-        productOrderMapper.insertOrder(productOrder);
-
-        List<PDPlatePurchaseOrderSpec> purchaseOrderSpecs = purchaseOrderSpecMapper.findSpecsByOrderNumber(sourceOrderNumber);
-        for (PDPlatePurchaseOrderSpec purchaseOrderSpec : purchaseOrderSpecs
+        //按颜色分类，将最终分类的结果赋值给innerSpecs
+        List<PDPlatePurchaseOrderSpec> purchaseOrderSpecs = purchaseOrderSpecMapper.groupSpecsByColorId(sourceOrderNumber);
+        for (PDPlatePurchaseOrderSpec s : purchaseOrderSpecs
                 ) {
-            PDPlateProductOrderSpec productOrderSpec = new PDPlateProductOrderSpec();
-            productOrderSpec.setFk_batch_number(generateBatchNumber(utilDate));
-            productOrderSpec.setFk_productOrder_number(productOrderNumber);
-            productOrderSpec.setQuantityCompleted_amount(0);
-            productOrderSpec.setState_code("-1");
-            productOrderSpecMapper.insertSpec(productOrderSpec);
-        }
+            List<PDPlatePurchaseOrderSpec> innerSpecs = purchaseOrderSpecMapper.findSpecsByOrderNumberAndColorId(sourceOrderNumber, s.getFk_color_id());
 
+            Date utilDate = new Date();
+            java.sql.Date sqlDate = new java.sql.Date(utilDate.getTime());
+            //生成生产指令单
+            String productOrderNumber = generateProductOrderNumber(sourceOrderNumber, s.getFk_color_id());
+            productOrder.setGenerate_time(sqlDate);
+            productOrder.setFk_purchaseOrder_number(sourceOrderNumber);
+            productOrder.setProductOrder_number(productOrderNumber);
+            productOrderMapper.insertOrder(productOrder);
+
+            //生成子项
+            for (PDPlatePurchaseOrderSpec purchaseOrderSpec : innerSpecs
+                    ) {
+                PDPlateProductOrderSpec productOrderSpec = new PDPlateProductOrderSpec();
+                productOrderSpec.setFk_batch_number(purchaseOrderSpec.getBatch_number());
+                productOrderSpec.setFk_productOrder_number(productOrderNumber);
+                productOrderSpec.setQuantityCompleted_amount(0);
+                productOrderSpec.setState_code("-1");
+                productOrderSpecMapper.insertSpec(productOrderSpec);
+            }
+        }
     }
 
-    public String generateProductOrderNumber(Date date) {
+    public String generateProductOrderNumber(String purchaseOrderNumber, String colorId) {
 
-        SimpleDateFormat df = new SimpleDateFormat("yyyy");
-        String yearBegin = df.format(date) + "-01-01";
-        String yearEnd = df.format(date) + "-12-31";
-
-        ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
-
-        PDPlateProductOrderMapper mapper = ac.getBean(PDPlateProductOrderMapper.class);
-        Integer count = mapper.countOrdersInYear(yearBegin, yearEnd) + 1;
-
-        String num = df.format(date).substring(2, 4) + String.format("%04d", count);
-        System.out.println(num);
-        return num;
+        return purchaseOrderNumber + colorId;
 
     }
 
@@ -158,12 +150,12 @@ public class JunitTest {
 
         Integer count = mapper.countSpecsInMonth(monthBegin, monthEnd) + 1;
 
-        String num = (df.format(date).substring(2,4) + String.format("%04d", count)).replace("-","");
+        String num = (df.format(date).substring(2, 4) + String.format("%04d", count)).replace("-", "");
 
         return num;
     }
 
-    public String getPurchaseOrderProcessingValue(String purchaseOrderNumber){
+    public String getPurchaseOrderProcessingValue(String purchaseOrderNumber) {
         //找与板材订单对应的所有生产指令子单元素，将生产指令子单的已完成量和板材订单子项的总量做对比并返回 10/520
         return "10/520";
     }

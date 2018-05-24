@@ -18,4 +18,12 @@
         SELECT COUNT(*) FROM PD_Plate_purchaseOrder_spec JOIN PD_Plate_purchaseOrder WHERE PD_Plate_purchaseOrder.receive_time BETWEEN #{monthBegin} AND #{monthEnd};
     </select>
 
+    <select id="groupSpecsByColorId" resultType="PDPlatePurchaseOrderSpec">
+        SELECT * FROM PD_Plate_purchaseOrder_spec GROUP BY fk_color_id HAVING fk_purchaseOrder_number = #{VALUE};
+    </select>
+
+    <select id="findSpecsByOrderNumberAndColorId" resultType="PDPlatePurchaseOrderSpec">
+        SELECT * FROM PD_Plate_purchaseOrder_spec WHERE fk_purchaseOrder_number = #{orderNumber} AND fk_color_id = #{colorId};
+    </select>
+
 </mapper>

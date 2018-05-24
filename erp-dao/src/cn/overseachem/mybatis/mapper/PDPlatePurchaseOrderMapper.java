@@ -1,6 +1,7 @@
 package cn.overseachem.mybatis.mapper;
 
 import cn.overseachem.mybatis.pojo.PDPlatePurchaseOrder;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -13,7 +14,12 @@ public interface PDPlatePurchaseOrderMapper {
 
     public List<PDPlatePurchaseOrder> findOrdersByValidityCode(boolean validity);
 
-    public List<PDPlatePurchaseOrder> findOrdersByAllConditions(String number, String companyName, String receiveTimeStart, String receiveTimeEnd, String deliverTimeStart, String deliverTimeEnd);
+    public List<PDPlatePurchaseOrder> findOrdersByAllConditions(@Param("orderNumber") String number,
+                                                                @Param("companyName") String companyName,
+                                                                @Param("receiveTimeStart") String receiveTimeStart,
+                                                                @Param("receiveTimeEnd") String receiveTimeEnd,
+                                                                @Param("deliverTimeStart") String deliverTimeStart,
+                                                                @Param("deliverTimeEnd") String deliverTimeEnd);
 
     public void updateMakerName(String makerName, String orderNumber);
 

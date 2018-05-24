@@ -13,7 +13,7 @@
 	</select>
 
     <select id="findOrdersByAllConditions" resultType="PDPlatePurchaseOrder">
-		select * FROM PD_Plate_purchaseOrder where  purchaseOrder_number LIKE "%"#{0}"%" AND purchaseCompany_name like "%"#{1}"%" AND receive_time between  #{2}  and #{3} AND deliver_time between  #{4}  and #{5};
+		select * FROM PD_Plate_purchaseOrder where  purchaseOrder_number LIKE "%"#{orderNumber}"%" AND purchaseCompany_name like "%"#{companyName}"%" AND receive_time between  #{receiveTimeStart}  and #{receiveTimeEnd} AND deliver_time between  #{deliverTimeStart}  and #{deliverTimeEnd};
 	</select>
 
     <!-- //根据用户名称模糊查询用户列表

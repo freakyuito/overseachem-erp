@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4de5b3c0-c7b6-4954-be5a-176eb355605d" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_ins-info.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder_dtl.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_packing-info.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-dtl.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_test-info.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityInspection-dtl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/junit/JunitTest.java" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/junit/JunitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.xml" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.java" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.xml" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.java" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.xml" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrder.java" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrderSpec.java" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrderSpec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlatePurchaseOrderSpec.java" afterPath="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlatePurchaseOrderSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_craftRecord-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_craftRecord-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_godownEntry-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_godownEntry-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_plateMachineRecord-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_plateMachineRecord-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-add.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-dtl.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-dtl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityInspection-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityInspection-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityTrack-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityTrack-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_sheetMachineRecord-list.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_sheetMachineRecord-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_ins-mod.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_ins-mod.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_test-mod.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_test-mod.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_track-info.html" afterPath="$PROJECT_DIR$/erp_web/web/bos-sys/plate_track-info.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,74 +36,92 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PD_Plate_productOrder_dtl.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder_dtl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="377" column="54" lean-forward="false" selection-start-line="377" selection-start-column="54" selection-end-line="377" selection-end-column="54" />
+              <folding>
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PD_Plate_productOrder-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="267" column="33" lean-forward="true" selection-start-line="267" selection-start-column="33" selection-end-line="267" selection-end-column="33" />
+              <folding>
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PD_Plate_purchaseOrder-add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="267" column="33" lean-forward="true" selection-start-line="267" selection-start-column="33" selection-end-line="267" selection-end-column="33" />
+              <folding>
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PD_Plate_purchaseOrder-dtl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-dtl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="267" column="33" lean-forward="true" selection-start-line="267" selection-start-column="33" selection-end-line="267" selection-end-column="33" />
+              <folding>
+                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#tfoot#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PD_Plate_purchaseOrder-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="335" column="55" lean-forward="false" selection-start-line="335" selection-start-column="52" selection-end-line="335" selection-end-column="55" />
+            <state relative-caret-position="368">
+              <caret line="267" column="32" lean-forward="false" selection-start-line="267" selection-start-column="32" selection-end-line="267" selection-end-column="32" />
               <folding>
                 <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDPlatePurchaseOrderMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-              <folding>
-                <marker date="1527126514182" expanded="true" signature="332:402" ph="SELECT * FRO... PD_Plate_purchaseOrder" />
-                <marker date="1527126514182" expanded="true" signature="513:629" ph="select * fro... PD_Plate_purchaseOrder" />
-                <marker date="1527126514182" expanded="true" signature="723:926" ph="select * FRO... PD_Plate_purchaseOrder" />
-                <marker date="1527126514182" expanded="true" signature="1203:1266" ph="select * fro... PD_Plate_purchaseOrder" />
-                <marker date="1527126514182" expanded="true" signature="1316:1419" ph="UPDATE PD_Pl... " />
-                <marker date="1527126514182" expanded="true" signature="1472:1582" ph="UPDATE PD_Pl... " />
-                <marker date="1527126514182" expanded="true" signature="1635:1745" ph="UPDATE PD_Pl... " />
-                <marker date="1527126514182" expanded="true" signature="1800:1914" ph="UPDATE PD_Pl... " />
-                <marker date="1527126514182" expanded="true" signature="1997:2236" ph="INSERT INTO PD_Plate_purchaseOrder... " />
-                <marker date="1527126514182" expanded="true" signature="2324:2748" ph="select PD_Pl... PD_Plate_purchaseOrder" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JunitTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/junit/JunitTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="823">
-              <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDPlatePurchaseOrderSpecMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="126" lean-forward="false" selection-start-line="17" selection-start-column="126" selection-end-line="17" selection-end-column="126" />
-              <folding>
-                <marker date="1527127621545" expanded="true" signature="352:434" ph="SELECT * FRO... PD_Plate_purchaseOrder_spec" />
-                <marker date="1527127621545" expanded="true" signature="529:674" ph="insert into PD_Plate_purchaseOrder_spec... " />
-                <marker date="1527127621545" expanded="true" signature="753:909" ph="SELECT COUNT... PD_Plate_purchaseOrder_spec" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#th#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#2;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#3;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#4;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,81 +130,41 @@
       <file leaf-file-name="PDPlatePurchaseOrderSpecMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="17" column="113" lean-forward="false" selection-start-line="17" selection-start-column="113" selection-end-line="17" selection-end-column="113" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDPlateProductOrderSpecMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <marker date="1527067841305" expanded="true" signature="375:473" ph="SELECT * FRO... PD_Plate_productOrder_spec" />
-                <marker date="1527067841305" expanded="true" signature="679:885" ph="insert into PD_Plate_productOrder_spec... " />
-                <marker date="1527067841305" expanded="true" signature="955:1109" ph="SELECT COUNT... PD_Plate_productOrder_spec" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDPlateProductOrderSpecMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="17" column="112" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="112" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDPlatePurchaseOrderSpec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlatePurchaseOrderSpec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding>
-                <element signature="e#1270#1271#0" expanded="true" />
-                <element signature="e#1307#1308#0" expanded="true" />
-                <element signature="e#1368#1369#0" expanded="true" />
-                <element signature="e#1420#1421#0" expanded="true" />
-                <element signature="e#1459#1460#0" expanded="true" />
-                <element signature="e#1494#1495#0" expanded="true" />
-                <element signature="e#1550#1551#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDPlateProductOrderSpec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrderSpec.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="21" column="148" lean-forward="false" selection-start-line="21" selection-start-column="148" selection-end-line="21" selection-end-column="148" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PDPlatePurchaseOrderMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="286" lean-forward="false" selection-start-line="15" selection-start-column="286" selection-end-line="15" selection-end-column="286" />
               <folding>
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#965#966#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1119#1120#0" expanded="true" />
+                <marker date="1527138670495" expanded="true" signature="332:402" ph="SELECT * FRO... PD_Plate_purchaseOrder" />
+                <marker date="1527138670495" expanded="true" signature="513:629" ph="select * fro... PD_Plate_purchaseOrder" />
+                <marker date="1527138670495" expanded="true" signature="723:1002" ph="select * FRO... PD_Plate_purchaseOrder" />
+                <marker date="1527138670495" expanded="true" signature="1279:1342" ph="select * fro... PD_Plate_purchaseOrder" />
+                <marker date="1527138670495" expanded="true" signature="1392:1495" ph="UPDATE PD_Pl... " />
+                <marker date="1527138670495" expanded="true" signature="1548:1658" ph="UPDATE PD_Pl... " />
+                <marker date="1527138670495" expanded="true" signature="1711:1821" ph="UPDATE PD_Pl... " />
+                <marker date="1527138670495" expanded="true" signature="1876:1990" ph="UPDATE PD_Pl... " />
+                <marker date="1527138670495" expanded="true" signature="2073:2312" ph="INSERT INTO PD_Plate_purchaseOrder... " />
+                <marker date="1527138670495" expanded="true" signature="2400:2824" ph="select PD_Pl... PD_Plate_purchaseOrder" />
+                <marker date="1527138670495" expanded="true" signature="4054:4081" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDPlateProductOrderMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.java">
+      <file leaf-file-name="PDPlatePurchaseOrderMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="21" column="86" lean-forward="false" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,6 +181,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>simple butto</find>
+      <find>texta</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -206,26 +198,29 @@
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.java" />
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.java" />
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.xml" />
-        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityInspection-list.html" />
-        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityTrack-list.html" />
-        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_sheetMachineRecord-list.html" />
-        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_craftRecord-list.html" />
-        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_godownEntry-list.html" />
-        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-list.html" />
-        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_plateMachineRecord-list.html" />
-        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder-list.html" />
-        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-dtl.html" />
-        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-add.html" />
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrder.java" />
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.xml" />
-        <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.java" />
-        <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.xml" />
-        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-list.html" />
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlatePurchaseOrderSpec.java" />
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrderSpec.java" />
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.java" />
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.xml" />
         <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/junit/JunitTest.java" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_craftRecord-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_godownEntry-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-dtl.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_plateMachineRecord-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityInspection-dtl.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityInspection-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityTrack-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_sheetMachineRecord-list.html" />
+        <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.java" />
+        <option value="$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-dtl.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-add.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder-list.html" />
+        <option value="$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder_dtl.html" />
       </list>
     </option>
   </component>
@@ -238,8 +233,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -260,6 +255,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -405,10 +401,6 @@
               <option name="myItemId" value="mybatis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -462,49 +454,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="overseachem-erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="overseachem-erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="overseachem-erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="overseachem-erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -517,16 +468,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zhihui_Shen\Documents\GitHub\overseachem-erp\erp_web\web\bos-sys" />
       <recent name="D:\software-dev\workspace\java-ee\overseachem-erp\erp_web\web\bos-sys" />
+      <recent name="D:\software-dev\workspace\java-ee\overseachem-erp\erp_web\web\bos-sys\example-pages" />
+      <recent name="C:\Users\Zhihui_Shen\Documents\GitHub\overseachem-erp\erp-dao\src\cn\overseachem\mybatis\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.overseachem.mybatis.mapper" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\software-dev\workspace\java-ee\overseachem-erp\erp_web\web\bos-sys" />
-      <recent name="D:\software-dev\workspace\java-ee\overseachem-erp\erp_web\web\bos-sys\example-pages" />
-      <recent name="C:\Users\Zhihui_Shen\Documents\GitHub\overseachem-erp\erp-dao\src\cn\overseachem\mybatis\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -967,6 +919,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4de5b3c0-c7b6-4954-be5a-176eb355605d" name="Default" comment="" />
@@ -977,6 +932,7 @@
       <workItem from="1527037187777" duration="4674000" />
       <workItem from="1527059819486" duration="16328000" />
       <workItem from="1527124499996" duration="3421000" />
+      <workItem from="1527139300403" duration="386000" />
     </task>
     <servers />
   </component>
@@ -1013,10 +969,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24423000" />
+    <option name="totallyTimeSpent" value="33303000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1034,7 +990,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29051173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2898975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1072,20 +1028,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#th#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1096,7 +1044,6 @@
           <caret line="380" column="66" lean-forward="false" selection-start-line="380" selection-start-column="66" selection-end-line="380" selection-end-column="66" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1105,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8000">
           <caret line="500" column="50" lean-forward="true" selection-start-line="491" selection-start-column="44" selection-end-line="500" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,7 +1061,7 @@
           <caret line="439" column="33" lean-forward="false" selection-start-line="439" selection-start-column="33" selection-end-line="439" selection-end-column="33" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#2;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1128,7 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,11 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11936">
           <caret line="746" column="18" lean-forward="true" selection-start-line="318" selection-start-column="12" selection-end-line="746" selection-end-column="18" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,11 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="302" column="29" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="302" selection-end-column="29" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1160,11 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="302" column="25" lean-forward="false" selection-start-line="302" selection-start-column="25" selection-end-line="302" selection-end-column="25" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1172,11 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="302" column="25" lean-forward="false" selection-start-line="302" selection-start-column="25" selection-end-line="302" selection-end-column="25" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1184,11 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="301" column="25" lean-forward="false" selection-start-line="301" selection-start-column="25" selection-end-line="301" selection-end-column="25" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1197,16 +1117,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1527126514182" expanded="true" signature="332:402" ph="SELECT * FRO... PD_Plate_purchaseOrder" />
-            <marker date="1527126514182" expanded="true" signature="513:629" ph="select * fro... PD_Plate_purchaseOrder" />
-            <marker date="1527126514182" expanded="true" signature="723:926" ph="select * FRO... PD_Plate_purchaseOrder" />
-            <marker date="1527126514182" expanded="true" signature="1203:1266" ph="select * fro... PD_Plate_purchaseOrder" />
-            <marker date="1527126514182" expanded="true" signature="1316:1419" ph="UPDATE PD_Pl... " />
-            <marker date="1527126514182" expanded="true" signature="1472:1582" ph="UPDATE PD_Pl... " />
-            <marker date="1527126514182" expanded="true" signature="1635:1745" ph="UPDATE PD_Pl... " />
-            <marker date="1527126514182" expanded="true" signature="1800:1914" ph="UPDATE PD_Pl... " />
-            <marker date="1527126514182" expanded="true" signature="1997:2236" ph="INSERT INTO PD_Plate_purchaseOrder... " />
-            <marker date="1527126514182" expanded="true" signature="2324:2748" ph="select PD_Pl... PD_Plate_purchaseOrder" />
+            <marker date="1527138670495" expanded="true" signature="332:402" ph="SELECT * FRO... PD_Plate_purchaseOrder" />
+            <marker date="1527138670495" expanded="true" signature="513:629" ph="select * fro... PD_Plate_purchaseOrder" />
+            <marker date="1527138670495" expanded="true" signature="723:1002" ph="select * FRO... PD_Plate_purchaseOrder" />
+            <marker date="1527138670495" expanded="true" signature="1279:1342" ph="select * fro... PD_Plate_purchaseOrder" />
+            <marker date="1527138670495" expanded="true" signature="1392:1495" ph="UPDATE PD_Pl... " />
+            <marker date="1527138670495" expanded="true" signature="1548:1658" ph="UPDATE PD_Pl... " />
+            <marker date="1527138670495" expanded="true" signature="1711:1821" ph="UPDATE PD_Pl... " />
+            <marker date="1527138670495" expanded="true" signature="1876:1990" ph="UPDATE PD_Pl... " />
+            <marker date="1527138670495" expanded="true" signature="2073:2312" ph="INSERT INTO PD_Plate_purchaseOrder... " />
+            <marker date="1527138670495" expanded="true" signature="2400:2824" ph="select PD_Pl... PD_Plate_purchaseOrder" />
+            <marker date="1527138670495" expanded="true" signature="4054:4081" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1225,9 +1146,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1235,7 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,10 +1160,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="126" lean-forward="false" selection-start-line="9" selection-start-column="126" selection-end-line="9" selection-end-column="126" />
-          <folding>
-            <marker date="1527125222927" expanded="true" signature="329:511" ph="insert into PD_Plate_productOrder... " />
-            <marker date="1527125222927" expanded="true" signature="584:682" ph="SELECT COUNT... PD_Plate_productOrder" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1254,7 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,9 +1184,11 @@
         <state relative-caret-position="208">
           <caret line="13" column="99" lean-forward="false" selection-start-line="13" selection-start-column="99" selection-end-line="13" selection-end-column="99" />
           <folding>
-            <marker date="1527127621545" expanded="true" signature="352:434" ph="SELECT * FRO... PD_Plate_purchaseOrder_spec" />
-            <marker date="1527127621545" expanded="true" signature="529:674" ph="insert into PD_Plate_purchaseOrder_spec... " />
-            <marker date="1527127621545" expanded="true" signature="753:909" ph="SELECT COUNT... PD_Plate_purchaseOrder_spec" />
+            <marker date="1527131478696" expanded="true" signature="352:434" ph="SELECT * FRO... PD_Plate_purchaseOrder_spec" />
+            <marker date="1527131478696" expanded="true" signature="529:674" ph="insert into PD_Plate_purchaseOrder_spec... " />
+            <marker date="1527131478696" expanded="true" signature="753:909" ph="SELECT COUNT... PD_Plate_purchaseOrder_spec" />
+            <marker date="1527131478696" expanded="true" signature="1010:1114" ph="SELECT * FRO... PD_Plate_purchaseOrder_spec" />
+            <marker date="1527131478696" expanded="true" signature="1228:1345" ph="SELECT * FRO... PD_Plate_purchaseOrder_spec" />
           </folding>
         </state>
       </provider>
@@ -1282,26 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="37" />
-          <folding>
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1317,83 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityInspection-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="324" column="25" lean-forward="false" selection-start-line="324" selection-start-column="25" selection-end-line="324" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityTrack-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="324" column="25" lean-forward="false" selection-start-line="324" selection-start-column="25" selection-end-line="324" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_sheetMachineRecord-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="324" column="25" lean-forward="false" selection-start-line="324" selection-start-column="25" selection-end-line="324" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_godownEntry-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="302" column="25" lean-forward="false" selection-start-line="302" selection-start-column="25" selection-end-line="302" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="302" column="25" lean-forward="false" selection-start-line="302" selection-start-column="25" selection-end-line="302" selection-end-column="25" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_plateMachineRecord-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="302" column="25" lean-forward="false" selection-start-line="302" selection-start-column="25" selection-end-line="302" selection-end-column="25" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="301" column="25" lean-forward="false" selection-start-line="301" selection-start-column="25" selection-end-line="301" selection-end-column="25" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_craftRecord-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="302" column="29" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="302" selection-end-column="29" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1401,7 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1409,22 +1226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="746" column="18" lean-forward="false" selection-start-line="318" selection-start-column="12" selection-end-line="746" selection-end-column="18" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1552">
-          <caret line="380" column="66" lean-forward="false" selection-start-line="380" selection-start-column="66" selection-end-line="380" selection-end-column="66" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1432,17 +1233,197 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8000">
           <caret line="500" column="50" lean-forward="false" selection-start-line="491" selection-start-column="44" selection-end-line="500" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlatePurchaseOrderSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrderSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <marker date="1527131478696" expanded="true" signature="352:434" ph="SELECT * FRO... PD_Plate_purchaseOrder_spec" />
+            <marker date="1527131478696" expanded="true" signature="529:674" ph="insert into PD_Plate_purchaseOrder_spec... " />
+            <marker date="1527131478696" expanded="true" signature="753:909" ph="SELECT COUNT... PD_Plate_purchaseOrder_spec" />
+            <marker date="1527131478696" expanded="true" signature="1010:1114" ph="SELECT * FRO... PD_Plate_purchaseOrder_spec" />
+            <marker date="1527131478696" expanded="true" signature="1228:1345" ph="SELECT * FRO... PD_Plate_purchaseOrder_spec" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/junit/JunitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="81" column="30" lean-forward="false" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="98" lean-forward="false" selection-start-line="12" selection-start-column="98" selection-end-line="12" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/example-pages/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="342" column="50" lean-forward="false" selection-start-line="342" selection-start-column="45" selection-end-line="342" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_craftRecord-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="305" column="29" lean-forward="false" selection-start-line="305" selection-start-column="29" selection-end-line="305" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_godownEntry-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="305" column="25" lean-forward="false" selection-start-line="305" selection-start-column="25" selection-end-line="305" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-dtl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="305" column="25" lean-forward="false" selection-start-line="305" selection-start-column="25" selection-end-line="305" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_packingList-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="305" column="25" lean-forward="false" selection-start-line="305" selection-start-column="25" selection-end-line="305" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_plateMachineRecord-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="305" column="25" lean-forward="false" selection-start-line="305" selection-start-column="25" selection-end-line="305" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityInspection-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="305" column="25" lean-forward="false" selection-start-line="305" selection-start-column="25" selection-end-line="305" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityTrack-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="305" column="25" lean-forward="false" selection-start-line="305" selection-start-column="25" selection-end-line="305" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_sheetMachineRecord-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="305" column="25" lean-forward="false" selection-start-line="305" selection-start-column="25" selection-end-line="305" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="286" lean-forward="false" selection-start-line="15" selection-start-column="286" selection-end-line="15" selection-end-column="286" />
+          <folding>
+            <marker date="1527138670495" expanded="true" signature="332:402" ph="SELECT * FRO... PD_Plate_purchaseOrder" />
+            <marker date="1527138670495" expanded="true" signature="513:629" ph="select * fro... PD_Plate_purchaseOrder" />
+            <marker date="1527138670495" expanded="true" signature="723:1002" ph="select * FRO... PD_Plate_purchaseOrder" />
+            <marker date="1527138670495" expanded="true" signature="1279:1342" ph="select * fro... PD_Plate_purchaseOrder" />
+            <marker date="1527138670495" expanded="true" signature="1392:1495" ph="UPDATE PD_Pl... " />
+            <marker date="1527138670495" expanded="true" signature="1548:1658" ph="UPDATE PD_Pl... " />
+            <marker date="1527138670495" expanded="true" signature="1711:1821" ph="UPDATE PD_Pl... " />
+            <marker date="1527138670495" expanded="true" signature="1876:1990" ph="UPDATE PD_Pl... " />
+            <marker date="1527138670495" expanded="true" signature="2073:2312" ph="INSERT INTO PD_Plate_purchaseOrder... " />
+            <marker date="1527138670495" expanded="true" signature="2400:2824" ph="select PD_Pl... PD_Plate_purchaseOrder" />
+            <marker date="1527138670495" expanded="true" signature="4054:4081" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_qualityInspection-dtl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="305" column="25" lean-forward="false" selection-start-line="305" selection-start-column="25" selection-end-line="305" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="86" lean-forward="false" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="148" lean-forward="false" selection-start-line="21" selection-start-column="148" selection-end-line="21" selection-end-column="148" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-dtl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="439" column="33" lean-forward="false" selection-start-line="439" selection-start-column="33" selection-end-line="439" selection-end-column="33" />
+        <state relative-caret-position="160">
+          <caret line="267" column="33" lean-forward="true" selection-start-line="267" selection-start-column="33" selection-end-line="267" selection-end-column="33" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#2;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1451,165 +1432,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrder.java">
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="112">
+          <caret line="267" column="33" lean-forward="true" selection-start-line="267" selection-start-column="33" selection-end-line="267" selection-end-column="33" />
           <folding>
-            <marker date="1527125222927" expanded="true" signature="329:511" ph="insert into PD_Plate_productOrder... " />
-            <marker date="1527125222927" expanded="true" signature="584:682" ph="SELECT COUNT... PD_Plate_productOrder" />
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.java">
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="78">
+          <caret line="267" column="33" lean-forward="true" selection-start-line="267" selection-start-column="33" selection-end-line="267" selection-end-column="33" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_purchaseOrder-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="335" column="55" lean-forward="false" selection-start-line="335" selection-start-column="52" selection-end-line="335" selection-end-column="55" />
+        <state relative-caret-position="368">
+          <caret line="267" column="32" lean-forward="false" selection-start-line="267" selection-start-column="32" selection-end-line="267" selection-end-column="32" />
           <folding>
             <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#th#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderMapper.java">
+    <entry file="file://$PROJECT_DIR$/erp_web/web/bos-sys/PD_Plate_productOrder_dtl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        <state relative-caret-position="448">
+          <caret line="377" column="54" lean-forward="false" selection-start-line="377" selection-start-column="54" selection-end-line="377" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <marker date="1527126514182" expanded="true" signature="332:402" ph="SELECT * FRO... PD_Plate_purchaseOrder" />
-            <marker date="1527126514182" expanded="true" signature="513:629" ph="select * fro... PD_Plate_purchaseOrder" />
-            <marker date="1527126514182" expanded="true" signature="723:926" ph="select * FRO... PD_Plate_purchaseOrder" />
-            <marker date="1527126514182" expanded="true" signature="1203:1266" ph="select * fro... PD_Plate_purchaseOrder" />
-            <marker date="1527126514182" expanded="true" signature="1316:1419" ph="UPDATE PD_Pl... " />
-            <marker date="1527126514182" expanded="true" signature="1472:1582" ph="UPDATE PD_Pl... " />
-            <marker date="1527126514182" expanded="true" signature="1635:1745" ph="UPDATE PD_Pl... " />
-            <marker date="1527126514182" expanded="true" signature="1800:1914" ph="UPDATE PD_Pl... " />
-            <marker date="1527126514182" expanded="true" signature="1997:2236" ph="INSERT INTO PD_Plate_purchaseOrder... " />
-            <marker date="1527126514182" expanded="true" signature="2324:2748" ph="select PD_Pl... PD_Plate_purchaseOrder" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlatePurchaseOrderSpec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1459#1460#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/pojo/PDPlateProductOrderSpec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/junit/JunitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
-          <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="126" lean-forward="false" selection-start-line="17" selection-start-column="126" selection-end-line="17" selection-end-column="126" />
-          <folding>
-            <marker date="1527127621545" expanded="true" signature="352:434" ph="SELECT * FRO... PD_Plate_purchaseOrder_spec" />
-            <marker date="1527127621545" expanded="true" signature="529:674" ph="insert into PD_Plate_purchaseOrder_spec... " />
-            <marker date="1527127621545" expanded="true" signature="753:909" ph="SELECT COUNT... PD_Plate_purchaseOrder_spec" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlatePurchaseOrderSpecMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="17" column="113" lean-forward="false" selection-start-line="17" selection-start-column="113" selection-end-line="17" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <marker date="1527067841305" expanded="true" signature="375:473" ph="SELECT * FRO... PD_Plate_productOrder_spec" />
-            <marker date="1527067841305" expanded="true" signature="679:885" ph="insert into PD_Plate_productOrder_spec... " />
-            <marker date="1527067841305" expanded="true" signature="955:1109" ph="SELECT COUNT... PD_Plate_productOrder_spec" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erp-dao/src/cn/overseachem/mybatis/mapper/PDPlateProductOrderSpecMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="17" column="112" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
