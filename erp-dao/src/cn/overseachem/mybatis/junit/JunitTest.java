@@ -68,6 +68,7 @@ public class JunitTest {
     }
 
     public void addPurchaseOrder(PDPlatePurchaseOrder order, List<PDPlatePurchaseOrderSpec> specs) {
+        //自动生成子项批号
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         PDPlatePurchaseOrderMapper mapper = ac.getBean(PDPlatePurchaseOrderMapper.class);
@@ -77,6 +78,7 @@ public class JunitTest {
 
         for (PDPlatePurchaseOrderSpec s : specs
                 ) {
+            s.setBatch_number(generateBatchNumber(new Date()));
             mapper2.insertSpec(order.getPurchaseOrder_number(), s);
         }
     }
@@ -98,7 +100,6 @@ public class JunitTest {
 
         java.sql.Date sqlDate = new java.sql.Date(utilDate.getTime());
         productOrder.setGenerate_time(sqlDate);
-        productOrder.setMaker_name(sourceOrder.getMaker_name());
         productOrder.setFk_purchaseOrder_number(sourceOrderNumber);
 
         String productOrderNumber = generateProductOrderNumber(utilDate);
@@ -111,7 +112,7 @@ public class JunitTest {
         for (PDPlatePurchaseOrderSpec purchaseOrderSpec : purchaseOrderSpecs
                 ) {
             PDPlateProductOrderSpec productOrderSpec = new PDPlateProductOrderSpec();
-            productOrderSpec.setBatch_number(generateBatchNumber(utilDate));
+            productOrderSpec.setFk_batch_number(generateBatchNumber(utilDate));
             productOrderSpec.setFk_productOrder_number(productOrderNumber);
             productOrderSpec.setQuantityCompleted_amount(0);
             productOrderSpec.setState_code("-1");
@@ -153,12 +154,17 @@ public class JunitTest {
 
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        PDPlateProductOrderSpecMapper mapper = ac.getBean(PDPlateProductOrderSpecMapper.class);
+        PDPlatePurchaseOrderSpecMapper mapper = ac.getBean(PDPlatePurchaseOrderSpecMapper.class);
 
         Integer count = mapper.countSpecsInMonth(monthBegin, monthEnd) + 1;
 
         String num = (df.format(date).substring(2,4) + String.format("%04d", count)).replace("-","");
 
         return num;
+    }
+
+    public String getPurchaseOrderProcessingValue(String purchaseOrderNumber){
+        //找与板材订单对应的所有生产指令子单元素，将生产指令子单的已完成量和板材订单子项的总量做对比并返回 10/520
+        return "10/520";
     }
 }

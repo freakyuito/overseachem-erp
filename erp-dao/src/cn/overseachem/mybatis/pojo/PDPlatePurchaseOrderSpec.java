@@ -9,8 +9,9 @@ public class PDPlatePurchaseOrderSpec {
     private String fk_pattern_id;
     private String fk_color_id;
     private String size;
-    private Integer quantity;
+    private Integer total_quantity;
     private String remark;
+    private String batch_number;
 
     public String getFk_purchaseOrder_number() {
         return fk_purchaseOrder_number;
@@ -44,14 +45,6 @@ public class PDPlatePurchaseOrderSpec {
         this.size = size;
     }
 
-    public Integer getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(Integer quantity) {
-        this.quantity = quantity;
-    }
-
     public String getRemark() {
         return remark;
     }
@@ -60,4 +53,19 @@ public class PDPlatePurchaseOrderSpec {
         this.remark = remark;
     }
 
+    public Integer getTotal_quantity() {
+        return total_quantity;
+    }
+
+    public void setTotal_quantity(Integer total_quantity) {
+        this.total_quantity = total_quantity;
+    }
+
+    public String getBatch_number() {
+        return batch_number;
+    }
+
+    public void setBatch_number(String batch_number) {
+        this.batch_number = batch_number;
+    }
 }

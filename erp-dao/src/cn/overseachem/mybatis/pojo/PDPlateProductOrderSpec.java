@@ -6,7 +6,7 @@ package cn.overseachem.mybatis.pojo;
 public class PDPlateProductOrderSpec {
 
     private String state_code;
-    private String batch_number;
+    private String fk_batch_number;
     private String fk_productOrder_number;
     private int quantityCompleted_amount;
 
@@ -18,21 +18,12 @@ public class PDPlateProductOrderSpec {
         this.fk_productOrder_number = fk_productOrder_number;
     }
 
-
     public String getState_code() {
         return state_code;
     }
 
     public void setState_code(String state_code) {
         this.state_code = state_code;
-    }
-
-    public String getBatch_number() {
-        return batch_number;
-    }
-
-    public void setBatch_number(String batch_number) {
-        this.batch_number = batch_number;
     }
 
     public int getQuantityCompleted_amount() {
@@ -43,5 +34,11 @@ public class PDPlateProductOrderSpec {
         this.quantityCompleted_amount = quantityCompleted_amount;
     }
 
+    public String getFk_batch_number() {
+        return fk_batch_number;
+    }
 
+    public void setFk_batch_number(String fk_batch_number) {
+        this.fk_batch_number = fk_batch_number;
+    }
 }

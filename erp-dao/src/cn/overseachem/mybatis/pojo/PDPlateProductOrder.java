@@ -8,7 +8,6 @@ import java.sql.Date;
 public class PDPlateProductOrder {
     private Integer machine_number;
     private Date generate_time;
-    private String maker_name;
     private String approver_name;
     private String receiver_name;
     private String fk_purchaseOrder_number;
@@ -62,14 +61,6 @@ public class PDPlateProductOrder {
 
     public void setGenerate_time(Date generate_time) {
         this.generate_time = generate_time;
-    }
-
-    public String getMaker_name() {
-        return maker_name;
-    }
-
-    public void setMaker_name(String maker_name) {
-        this.maker_name = maker_name;
     }
 
     public String getFk_purchaseOrder_number() {
