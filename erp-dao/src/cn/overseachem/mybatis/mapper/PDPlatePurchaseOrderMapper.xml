@@ -47,10 +47,18 @@
 	</insert>
 
     <select id="findOrdersUnstarted" resultType="PDPlatePurchaseOrder">
-		select PD_Plate_purchaseOrder.* from PD_Plate_purchaseOrder inner join PD_Plate_productOrder on PD_Plate_purchaseOrder.purchaseOrder_number = PD_Plate_productOrder.fk_purchaseOrder_number inner join PD_Plate_productOrder_spec on PD_Plate_productOrder_spec.fk_productOrder_number = PD_Plate_productOrder.productOrder_number where PD_Plate_productOrder_spec.state_code = -1 GROUP BY PD_Plate_purchaseOrder.purchaseOrder_number
+		select PD_Plate_purchaseOrder.* from PD_Plate_purchaseOrder
+		inner join PD_Plate_productOrder on PD_Plate_purchaseOrder.purchaseOrder_number = PD_Plate_productOrder.fk_purchaseOrder_number
+		inner join PD_Plate_productOrder_spec on PD_Plate_productOrder_spec.fk_productOrder_number = PD_Plate_productOrder.productOrder_number
+		where PD_Plate_productOrder_spec.state_code = -1 GROUP BY PD_Plate_purchaseOrder.purchaseOrder_number
 	</select>
 
-    <select id="findOrdersProcessing" resultType="PDPlatePurchaseOrder"></select>
+    <select id="findOrdersProcessing" resultType="PDPlatePurchaseOrder">
+		select PD_Plate_purchaseOrder.* from PD_Plate_purchaseOrder
+		inner join PD_Plate_productOrder on PD_Plate_purchaseOrder.purchaseOrder_number = PD_Plate_productOrder.fk_purchaseOrder_number
+		inner join PD_Plate_productOrder_spec on PD_Plate_productOrder_spec.fk_productOrder_number = PD_Plate_productOrder.productOrder_number
+		where PD_Plate_productOrder_spec.state_code = 1 GROUP BY PD_Plate_purchaseOrder.purchaseOrder_number
+	</select>
 
     <select id="findOrdersCompleted" resultType="PDPlatePurchaseOrder"></select>
 
