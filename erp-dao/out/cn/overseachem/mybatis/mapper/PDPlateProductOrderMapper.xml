@@ -7,8 +7,8 @@
 
 
     <insert id="insertOrder" parameterType="PDPlateProductOrder">
-		insert into PD_Plate_productOrder (generate_time,maker_name,fk_purchaseOrder_number,productOrder_number)
-		values (#{generate_time},#{maker_name},#{fk_purchaseOrder_number},#{productOrder_number});
+		insert into PD_Plate_productOrder (generate_time,fk_purchaseOrder_number,productOrder_number)
+		values (#{generate_time},#{fk_purchaseOrder_number},#{productOrder_number});
 	</insert>
 
     <select id="countOrdersInYear" resultType="Integer">

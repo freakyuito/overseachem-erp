@@ -13,8 +13,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<!--<selectKey keyProperty="id" resultType="Integer" order="AFTER">-->
 	<!--select LAST_INSERT_ID()-->
 	<!--</selectKey>-->
-	insert into PD_Plate_productOrder_spec (state_code,batch_number,fk_productOrder_number,quantityCompleted_amount)
-	values (#{state_code},#{batch_number},#{fk_productOrder_number},#{quantityCompleted_amount});
+	insert into PD_Plate_productOrder_spec (state_code,fk_batch_number,fk_productOrder_number,quantityCompleted_amount)
+	values (#{state_code},#{fk_batch_number},#{fk_productOrder_number},#{quantityCompleted_amount});
 	</insert>
 
 	<select id="countSpecsInMonth" resultType="Integer">

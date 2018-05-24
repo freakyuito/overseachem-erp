@@ -279,15 +279,14 @@
     <div id="page-wrapper">
         <div class="header">
             <h1 class="page-header">
-                板材部门
-                <small>板材订单列表</small>
+                销售部门
+                <small>新增板材订单</small>
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#">主页</a></li>
-                <li>生产部门</li>
-                <li>板材部门</li>
+                <li>销售部门</li>
+                <li>板材销售</li>
             </ol>
-
         </div>
 
         <div id="page-inner">
@@ -320,7 +319,73 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             详细信息
-                            <btn class="btn btn-primary">添加新订单</btn>
+
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_addSpec">
+                                <i class="fa fa-plus "></i>新增条目
+                            </button>
+                            <!-- 模态框（Modal） -->
+                            <div class="modal fade" id="myModal_addSpec" tabindex="-1" role="dialog"
+                                 aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                                &times;
+                                            </button>
+                                            <h4 class="modal-title" id="myModalLabel_addSpec">新增条目</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                    <tr>
+                                                        <th style="text-align: center">品名</th>
+                                                        <th style="text-align: center">颜色</th>
+                                                        <th style="text-align: center">规格（mm）</th>
+                                                        <th style="text-align: center">数量（张）</th>
+                                                        <th style="text-align: center">单价/公斤</th>
+                                                        <th style="text-align: center">备注</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td style="text-align: center;width: 150px">
+                                                            <div class="form-group">
+                                                                <select class="form-control">
+                                                                    <option>PET大钻石纹</option>
+                                                                    <option>PET编织纹</option>
+                                                                    <option>PET小钻石纹D</option>
+                                                                    <option>PET电子纹</option>
+                                                                    <option>PET炫彩</option>
+                                                                    <option>PET顶峰纹</option>
+                                                                    <option>PET小钻石纹V</option>
+                                                                </select>
+                                                            </div>
+                                                        </td>
+                                                        <td style="text-align: center"><input class="form-control"/>
+                                                        </td>
+                                                        <td style="text-align: center"><input class="form-control"/>
+                                                        </td>
+                                                        <td style="text-align: center"><input class="form-control"/>
+                                                        </td>
+                                                        <td style="text-align: center"><input class="form-control"/>
+                                                        </td>
+                                                        <td style="text-align: center"><input class="form-control"/>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                                            </button>
+                                            <button type="button" class="btn btn-primary">提交更改</button>
+                                        </div>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal -->
+                            </div>
+
                         </div>
                         <div class="panel-body">
                             <div class="table-responsive">
@@ -332,7 +397,9 @@
                                         <th style="text-align: center">颜色</th>
                                         <th style="text-align: center">规格（mm）</th>
                                         <th style="text-align: center">数量（张）</th>
+                                        <th style="text-align: center">单价/公斤</th>
                                         <th style="text-align: center">备注</th>
+                                        <th style="text-align: center">操作</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -342,7 +409,80 @@
                                         <td style="text-align: center" rowspan="3">V01黑色</td>
                                         <td style="text-align: center">660*480*2.4</td>
                                         <td style="text-align: center">580</td>
+                                        <td style="text-align: center">1.2</td>
                                         <td style="text-align: center"></td>
+                                        <td style="text-align: center">
+
+                                            <button class="btn btn-primary" data-toggle="modal"
+                                                    data-target="#myModal_modSpec01"><i class="fa fa-edit "></i>修改
+                                            </button>
+                                            <!-- 模态框（Modal） -->
+                                            <div class="modal fade" id="myModal_modSpec01" tabindex="-1" role="dialog"
+                                                 aria-labelledby="myModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                    aria-hidden="true">
+                                                                &times;
+                                                            </button>
+                                                            <h4 class="modal-title" id="myModalLabel_modSpec01">
+                                                                编辑条目</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="table-responsive">
+                                                                <table class="table table-bordered">
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th style="text-align: center">品名</th>
+                                                                        <th style="text-align: center">颜色</th>
+                                                                        <th style="text-align: center">规格（mm）</th>
+                                                                        <th style="text-align: center">数量（张）</th>
+                                                                        <th style="text-align: center">单价/公斤</th>
+                                                                        <th style="text-align: center">备注</th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td style="text-align: center;width: 150px">
+                                                                            <div class="form-group">
+                                                                                <select class="form-control">
+                                                                                    <option>PET大钻石纹</option>
+                                                                                    <option>PET编织纹</option>
+                                                                                    <option>PET小钻石纹D</option>
+                                                                                    <option>PET电子纹</option>
+                                                                                    <option>PET炫彩</option>
+                                                                                    <option>PET顶峰纹</option>
+                                                                                    <option>PET小钻石纹V</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td style="text-align: center"><input class="form-control"/>
+                                                                        </td>
+                                                                        <td style="text-align: center"><input class="form-control"/>
+                                                                        </td>
+                                                                        <td style="text-align: center"><input class="form-control"/>
+                                                                        </td>
+                                                                        <td style="text-align: center"><input class="form-control"/>
+                                                                        </td>
+                                                                        <td style="text-align: center"><input class="form-control"/>
+                                                                        </td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default"
+                                                                    data-dismiss="modal">关闭
+                                                            </button>
+                                                            <button type="button" class="btn btn-primary">提交更改</button>
+                                                        </div>
+                                                    </div><!-- /.modal-content -->
+                                                </div><!-- /.modal -->
+                                            </div>
+
+                                        </td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -351,7 +491,52 @@
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <btn class="btn btn-primary pull-right">提交</btn>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <label>导入合同</label>
+                                            <input type="file">
+                                        </td>
+                                        <td>
+
+                                            <button class="btn btn-primary pull-right" data-toggle="modal"
+                                                    data-target="#myModal_submit"><i class="fa fa-upload "></i>提交
+                                            </button>
+                                            <!-- 模态框（Modal） -->
+                                            <div class="modal fade" id="myModal_submit" tabindex="-1" role="dialog"
+                                                 aria-labelledby="myModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                    aria-hidden="true">
+                                                                &times;
+                                                            </button>
+                                                            <h4 class="modal-title" id="myModalLabel_submit">
+                                                                提交表单</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            确认提交吗？
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default"
+                                                                    data-dismiss="modal">关闭
+                                                            </button>
+                                                            <button type="button" class="btn btn-primary">提交</button>
+                                                        </div>
+                                                    </div><!-- /.modal-content -->
+                                                </div><!-- /.modal -->
+                                            </div>
+
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>

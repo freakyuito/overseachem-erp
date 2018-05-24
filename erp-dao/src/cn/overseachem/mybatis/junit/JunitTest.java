@@ -50,20 +50,20 @@ public class JunitTest {
 //            System.out.println(s.getPurchaseOrder_number() + s.getSalesman_name());
 //        }
 
-        generateProductOrder("18-6-11");
-        generateProductOrder("18007");
-        generateProductOrder("18033");
-        generateProductOrder("18045");
-        generateProductOrder("18065");
-        generateProductOrder("1815");
-        generateProductOrder("1819");
-        generateProductOrder("18314");
-        generateProductOrder("18LKL-0314");
-        generateProductOrder("20180129");
-        generateProductOrder("2K18E-5001");
-        generateProductOrder("887Z003");
-        generateProductOrder("92159");
-        generateProductOrder("WX-11157");
+//        generateProductOrder("18-6-11");
+//        generateProductOrder("18007");
+//        generateProductOrder("18033");
+//        generateProductOrder("18045");
+//        generateProductOrder("18065");
+////        generateProductOrder("1815");
+//        generateProductOrder("1819");
+//        generateProductOrder("18314");
+//        generateProductOrder("18LKL-0314");
+//        generateProductOrder("20180129");
+//        generateProductOrder("2K18E-5001");
+//        generateProductOrder("887Z003");
+//        generateProductOrder("92159");
+//        generateProductOrder("WX-11157");
 
     }
 
@@ -97,7 +97,8 @@ public class JunitTest {
         PDPlateProductOrder productOrder = new PDPlateProductOrder();
 
         //按颜色分类，将最终分类的结果赋值给innerSpecs
-        List<PDPlatePurchaseOrderSpec> purchaseOrderSpecs = purchaseOrderSpecMapper.groupSpecsByColorId(sourceOrderNumber);
+        List<PDPlatePurchaseOrderSpec> purchaseOrderSpecs = purchaseOrderSpecMapper.groupSpecsByColorIdWithSameOrderNumber(sourceOrderNumber);
+
         for (PDPlatePurchaseOrderSpec s : purchaseOrderSpecs
                 ) {
             List<PDPlatePurchaseOrderSpec> innerSpecs = purchaseOrderSpecMapper.findSpecsByOrderNumberAndColorId(sourceOrderNumber, s.getFk_color_id());
@@ -126,7 +127,7 @@ public class JunitTest {
 
     public String generateProductOrderNumber(String purchaseOrderNumber, String colorId) {
 
-        return purchaseOrderNumber + colorId;
+        return purchaseOrderNumber + "#" + colorId;
 
     }
 
