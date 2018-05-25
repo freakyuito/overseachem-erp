@@ -65,16 +65,14 @@ public class JunitTest {
         getOrderProcessValueByNumber("1815");
     }
 
+    //按订单号查询订单生产总进度
     public void getOrderProcessValueByNumber(String orderNumber) {
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         PDPlatePurchaseOrderMapper mapper = ac.getBean(PDPlatePurchaseOrderMapper.class);
 
         HashMap<String, Object> proportion = mapper.getProductProcessByNumber(orderNumber);
-        for (String s:proportion.keySet()
-             ) {
-            System.out.println(proportion.get(s));
-        }
+        System.out.println(proportion.get("SUM(quantityCompleted_amount)") + "/" + proportion.get("SUM(total_quantity)"));
 
     }
 
