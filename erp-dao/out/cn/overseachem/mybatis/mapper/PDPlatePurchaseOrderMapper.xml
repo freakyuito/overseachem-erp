@@ -47,10 +47,18 @@
 	</insert>
 
     <select id="findOrdersUnstarted" resultType="PDPlatePurchaseOrder">
-		select PD_Plate_purchaseOrder.* from PD_Plate_purchaseOrder inner join PD_Plate_productOrder on PD_Plate_purchaseOrder.purchaseOrder_number = PD_Plate_productOrder.fk_purchaseOrder_number inner join PD_Plate_productOrder_spec on PD_Plate_productOrder_spec.fk_productOrder_number = PD_Plate_productOrder.productOrder_number where PD_Plate_productOrder_spec.state_code = -1 GROUP BY PD_Plate_purchaseOrder.purchaseOrder_number
+		select PD_Plate_purchaseOrder.* from PD_Plate_purchaseOrder
+		inner join PD_Plate_productOrder on PD_Plate_purchaseOrder.purchaseOrder_number = PD_Plate_productOrder.fk_purchaseOrder_number
+		inner join PD_Plate_productOrder_spec on PD_Plate_productOrder_spec.fk_productOrder_number = PD_Plate_productOrder.productOrder_number
+		where PD_Plate_productOrder_spec.state_code = -1 GROUP BY PD_Plate_purchaseOrder.purchaseOrder_number
 	</select>
 
-    <select id="findOrdersProcessing" resultType="PDPlatePurchaseOrder"></select>
+    <select id="findOrdersProcessing" resultType="PDPlatePurchaseOrder">
+		select PD_Plate_purchaseOrder.* from PD_Plate_purchaseOrder
+		inner join PD_Plate_productOrder on PD_Plate_purchaseOrder.purchaseOrder_number = PD_Plate_productOrder.fk_purchaseOrder_number
+		inner join PD_Plate_productOrder_spec on PD_Plate_productOrder_spec.fk_productOrder_number = PD_Plate_productOrder.productOrder_number
+		where PD_Plate_productOrder_spec.state_code = 1 GROUP BY PD_Plate_purchaseOrder.purchaseOrder_number
+	</select>
 
     <select id="findOrdersCompleted" resultType="PDPlatePurchaseOrder"></select>
 
@@ -58,6 +66,18 @@
 
 	<select id="getProductProcessingValue" resultType="String">
 
+	</select>
+
+
+	<!--<resultMap id="processHashMap" type="hashmap">-->
+		<!--<result property="QUANTITYCOMPLETED_AMOUNT" column="quantityCompleted_amount"/>-->
+		<!--<result property="TOTAL_QUANTITY" column="total_quantity"/>-->
+	<!--</resultMap>-->
+	<select id="getProductProcessByNumber" resultType="hashmap">
+		SELECT SUM(quantityCompleted_amount),SUM(total_quantity)
+		FROM PD_Plate_purchaseOrder_spec INNER JOIN PD_Plate_productOrder_spec
+		ON PD_Plate_purchaseOrder_spec.batch_number = PD_Plate_productOrder_spec.fk_batch_number
+		WHERE PD_Plate_purchaseOrder_spec.fk_purchaseOrder_number = #{VALUE};
 	</select>
     <!---->
     <!--&lt;!&ndash; 添加用户 &ndash;&gt;-->

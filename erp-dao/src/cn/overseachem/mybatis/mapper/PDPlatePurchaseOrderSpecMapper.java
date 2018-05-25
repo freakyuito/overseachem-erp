@@ -4,6 +4,7 @@ import cn.overseachem.mybatis.pojo.PDPlateProductOrderSpec;
 import cn.overseachem.mybatis.pojo.PDPlatePurchaseOrderSpec;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -20,5 +21,7 @@ public interface PDPlatePurchaseOrderSpecMapper {
     public List<PDPlatePurchaseOrderSpec> groupSpecsByColorIdWithSameOrderNumber(String orderNumber);
 
     public List<PDPlatePurchaseOrderSpec> findSpecsByOrderNumberAndColorId(@Param("orderNumber") String orderNumber,@Param("colorId") String colorId);
+
+
 
 }

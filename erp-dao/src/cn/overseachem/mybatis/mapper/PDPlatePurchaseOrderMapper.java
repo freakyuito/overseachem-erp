@@ -3,6 +3,7 @@ package cn.overseachem.mybatis.mapper;
 import cn.overseachem.mybatis.pojo.PDPlatePurchaseOrder;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -40,5 +41,7 @@ public interface PDPlatePurchaseOrderMapper {
     public List<PDPlatePurchaseOrder> findOrdersCompleted();
 
     public List<PDPlatePurchaseOrder> findOrdersDelivered();
+
+    public HashMap<String,Object> getProductProcessByNumber(String orderNumber);
 
 }

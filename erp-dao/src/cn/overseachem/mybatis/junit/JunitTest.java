@@ -13,9 +13,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 public class JunitTest {
 
@@ -64,6 +62,19 @@ public class JunitTest {
 //        generateProductOrder("887Z003");
 //        generateProductOrder("92159");
 //        generateProductOrder("WX-11157");
+        getOrderProcessValueByNumber("1815");
+    }
+
+    public void getOrderProcessValueByNumber(String orderNumber) {
+        ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+
+        PDPlatePurchaseOrderMapper mapper = ac.getBean(PDPlatePurchaseOrderMapper.class);
+
+        HashMap<String, Object> proportion = mapper.getProductProcessByNumber(orderNumber);
+        for (String s:proportion.keySet()
+             ) {
+            System.out.println(proportion.get(s));
+        }
 
     }
 
