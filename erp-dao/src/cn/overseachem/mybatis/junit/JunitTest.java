@@ -133,6 +133,7 @@ public class JunitTest {
 
         for (PDPlatePurchaseOrderSpec s : specs
                 ) {
+            s.setFk_purchaseOrder_number(order.getPurchaseOrder_number());
             //自动生成子项批号
             s.setBatch_number(generateBatchNumber(new Date()));
             s.setFk_purchaseOrder_number(order.getPurchaseOrder_number());
