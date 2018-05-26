@@ -48,7 +48,7 @@ public class JunitTest {
 //            System.out.println(s.getPurchaseOrder_number() + s.getSalesman_name());
 //        }
 
-//        generateProductOrder("18-6-11");
+        generateProductOrder("18-5-12");
 //        generateProductOrder("18007");
 //        generateProductOrder("18033");
 //        generateProductOrder("18045");
@@ -62,7 +62,53 @@ public class JunitTest {
 //        generateProductOrder("887Z003");
 //        generateProductOrder("92159");
 //        generateProductOrder("WX-11157");
-        getOrderProcessValueByNumber("1815");
+//        PDPlatePurchaseOrder order = new PDPlatePurchaseOrder();
+//        order.setPurchaseOrder_number("18-5-12");
+//        order.setPurchaseCompany_name("大飞欧DFO");
+//        order.setReceive_time((new SimpleDateFormat("yyyy-MM-dd")).parse("2018-05-05"));
+//        order.setDeliver_time((new SimpleDateFormat("yyyy-MM-dd")).parse("2018-05-25"));
+//        order.setMaker_name("范军");
+//        order.setValidity_code(true);
+//
+//        List<PDPlatePurchaseOrderSpec> specs = new LinkedList<PDPlatePurchaseOrderSpec>();
+//
+//        PDPlatePurchaseOrderSpec s1 = new PDPlatePurchaseOrderSpec();
+//        s1.setFk_color_id("A06");
+//        s1.setFk_pattern_id("A");
+//        s1.setSize("650*470*2.2");
+//        s1.setTotal_quantity(1050);
+//        s1.setRemark("同大货一致");
+//        PDPlatePurchaseOrderSpec s2 = new PDPlatePurchaseOrderSpec();
+//        s2.setFk_color_id("V18");
+//        s2.setFk_pattern_id("V");
+//        s2.setSize("650*470*2.2");
+//        s2.setTotal_quantity(1050);
+//        s2.setRemark("同大货一致");
+//        PDPlatePurchaseOrderSpec s3 = new PDPlatePurchaseOrderSpec();
+//        s3.setFk_color_id("D18");
+//        s3.setFk_pattern_id("D");
+//        s3.setSize("650*470*2.2");
+//        s3.setTotal_quantity(950);
+//        s3.setRemark("同大货一致");
+//        PDPlatePurchaseOrderSpec s4 = new PDPlatePurchaseOrderSpec();
+//        s4.setFk_color_id("V18");
+//        s4.setFk_pattern_id("V");
+//        s4.setSize("740*540*2.6");
+//        s4.setTotal_quantity(950);
+//        s4.setRemark("同大货一致");
+//        PDPlatePurchaseOrderSpec s5 = new PDPlatePurchaseOrderSpec();
+//        s5.setFk_color_id("D18");
+//        s5.setFk_pattern_id("D");
+//        s5.setSize("850*650*2.8");
+//        s5.setTotal_quantity(1050);
+//        s5.setRemark("同大货一致");
+//
+//        specs.add(s1);
+//        specs.add(s2);
+//        specs.add(s3);
+//        specs.add(s4);
+//        specs.add(s5);
+//        addPurchaseOrder(order,specs);
     }
 
     //按订单号查询订单生产总进度
@@ -82,13 +128,15 @@ public class JunitTest {
         PDPlatePurchaseOrderMapper mapper = ac.getBean(PDPlatePurchaseOrderMapper.class);
         PDPlatePurchaseOrderSpecMapper mapper2 = ac.getBean(PDPlatePurchaseOrderSpecMapper.class);
 
+
         mapper.insertOrder(order);
 
         for (PDPlatePurchaseOrderSpec s : specs
                 ) {
             //自动生成子项批号
             s.setBatch_number(generateBatchNumber(new Date()));
-            mapper2.insertSpec(order.getPurchaseOrder_number(), s);
+            s.setFk_purchaseOrder_number(order.getPurchaseOrder_number());
+            mapper2.insertSpec(s);
         }
     }
 

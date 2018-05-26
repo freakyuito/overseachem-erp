@@ -12,7 +12,7 @@ import java.util.List;
  */
 public interface PDPlatePurchaseOrderSpecMapper {
 
-    public void insertSpec(String orderNumber,PDPlatePurchaseOrderSpec spec);
+    public void insertSpec(PDPlatePurchaseOrderSpec spec);
 
     public List<PDPlatePurchaseOrderSpec> findSpecsByOrderNumber(String orderNumber);
 

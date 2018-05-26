@@ -11,7 +11,7 @@
 
     <insert id="insertSpec" parameterType="PDPlatePurchaseOrderSpec">
         insert into PD_Plate_purchaseOrder_spec
-        values (#{fk_purchaseOrder_number},#{fk_pattern_id},#{fk_color_id},#{size},#{quantity},#{remark});
+        values (#{fk_purchaseOrder_number},#{fk_pattern_id},#{fk_color_id},#{size},#{total_quantity},#{remark},#{batch_number});
 	</insert>
 
     <select id="countSpecsInMonth" resultType="Integer">

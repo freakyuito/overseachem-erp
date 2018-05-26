@@ -42,8 +42,8 @@
 	</update>
 
     <insert id="insertOrder" parameterType="PDPlatePurchaseOrder">
-		INSERT INTO PD_Plate_purchaseOrder (purchaseOrder_number,purchaseCompany_name,receive_time,deliver_time,quantity_amount,validity_code)
-		VALUES (#{orderNumber},#{companyName},#{receiveTime},#{deliverTime},#{quantityAmount},#{validityCode});
+		INSERT INTO PD_Plate_purchaseOrder (purchaseOrder_number,purchaseCompany_name,receive_time,deliver_time,quantity_amount,validity_code,maker_name)
+		VALUES (#{purchaseOrder_number},#{purchaseCompany_name},#{receive_time},#{deliver_time},#{quantity_amount},#{validity_code},#{maker_name});
 	</insert>
 
     <select id="findOrdersUnstarted" resultType="PDPlatePurchaseOrder">
