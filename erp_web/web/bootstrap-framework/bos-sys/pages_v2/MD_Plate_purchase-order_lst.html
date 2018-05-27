@@ -7,37 +7,77 @@
     <link href="../assets/css/bootstrap.css" rel="stylesheet"/>
     <link href="../assets/css/font-awesome.css" rel="stylesheet"/>
     <link rel="stylesheet" href="../assets/css/bootstrap-datepicker.css">
+    <style type="text/css">
+        .dropdown-submenu {
+            position: relative;
+        }
+        .dropdown-submenu > .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -6px;
+            margin-left: -1px;
+            -webkit-border-radius: 0 6px 6px 6px;
+            -moz-border-radius: 0 6px 6px;
+            border-radius: 0 6px 6px 6px;
+        }
+        .dropdown-submenu:hover > .dropdown-menu {
+            display: block;
+        }
+        .dropdown-submenu > a:after {
+            display: block;
+            content: " ";
+            float: right;
+            width: 0;
+            height: 0;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 5px 0 5px 5px;
+            border-left-color: #ccc;
+            margin-top: 5px;
+            margin-right: -10px;
+        }
+        .dropdown-submenu:hover > a:after {
+            border-left-color: #fff;
+        }
+        .dropdown-submenu.pull-left {
+            float: none;
+        }
+        .dropdown-submenu.pull-left > .dropdown-menu {
+            left: -100%;
+            margin-left: 10px;
+            -webkit-border-radius: 6px 0 6px 6px;
+            -moz-border-radius: 6px 0 6px 6px;
+            border-radius: 6px 0 6px 6px;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-            <li><a href="#">首页</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">销售部门
-                    <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
+    <div class="dropdown">
+        <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#"
+           href="javascript:;">
+            销售部门 <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+            <li class="dropdown-submenu">
+                <a tabindex="-1" href="javascript:;">板材销售</a>
+                <ul class="dropdown-menu">
                     <li class="dropdown-submenu">
-                        <a href="#">板材销售</a>
+                        <a href="javascript:;">板材客户管理</a>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-menu">
-                                <a href="#">板材客户管理</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">xxx</a> </li>
-                                </ul>
-                            </li>
-                            <li><a href="#">板材订单管理</a></li>
-                            <li><a href="#">板材样品单管理</a></li>
+                            <li><a href="javascript:;">客户资料列表</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">肉类</a></li>
-                    <li><a href="#">水产</a></li>
+                    <li class="dropdown-submenu">
+                        <a href="javascript:;">板材订单管理</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="javascript:;">板材订单列表</a></li>
+                            <li><a href="javascript:;">板材订单明细</a></li>
+                            <li><a href="javascript:;">新增板材订单</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
-            <li><a href="#">食材</a></li>
-            <li><a href="#">健康</a></li>
-            <li><a href="#">话题</a></li>
-            <li><a href="#">活动</a></li>
         </ul>
     </div>
     <div class="row">
