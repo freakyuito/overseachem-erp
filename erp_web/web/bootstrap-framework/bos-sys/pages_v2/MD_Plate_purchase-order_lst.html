@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>板材订单列表</title>
+    <link href="../assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../assets/css/font-awesome.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../assets/css/bootstrap-datepicker.css">
+</head>
+<body>
+<div class="container">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li><a href="#">首页</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">销售部门
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-submenu">
+                        <a href="#">板材销售</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-menu">
+                                <a href="#">板材客户管理</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">xxx</a> </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">板材订单管理</a></li>
+                            <li><a href="#">板材样品单管理</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">肉类</a></li>
+                    <li><a href="#">水产</a></li>
+                </ul>
+            </li>
+            <li><a href="#">食材</a></li>
+            <li><a href="#">健康</a></li>
+            <li><a href="#">话题</a></li>
+            <li><a href="#">活动</a></li>
+        </ul>
+    </div>
+    <div class="row">
+        <h1 class="page-header">
+            板材销售管理
+            <small>板材订单列表</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#">主页</a></li>
+            <li><a href="#">销售部门</a></li>
+            <li class="active">板材销售</li>
+        </ol>
+    </div>
+    <div class="row">
+        <btn class="btn btn-primary pull-left">新增板材订单</btn>
+        <div class="btn-group pull-right" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                默认
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">默认</a></li>
+                <li><a href="#">待审批</a></li>
+                <li><a href="#">进行中</a></li>
+                <li><a href="#">等待中</a></li>
+                <li><a href="#">代发货</a></li>
+                <li><a href="#">已发货</a></li>
+                <li><a href="#">完成</a></li>
+                <li><a href="#">作废中</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" style="padding-top: 10px">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <label>客户名</label>
+                    </div>
+                    <div class="col-lg-2">
+                        <label>订单号</label>
+                    </div>
+                    <div class="col-lg-3">
+                        <label>订货日期-时段</label>
+                    </div>
+                    <div class="col-lg-3">
+                        <label>交货日期-时段</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <form>
+                        <div class="col-lg-2">
+                            <div class="form-group-sm">
+                                <input class="form-control" placeholder="例：吉虞">
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="form-group-sm">
+                                <input class="form-control" placeholder="例：JY80007">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="col-lg-12 input-group-sm">
+                                <div class="col-md-6 col-lg-6">
+                                    <input type="text" id="probootstrap-date-departure"
+                                           class="form-control input-sm" placeholder="开始日期">
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <input type="text" id="probootstrap-date-arrival"
+                                           class="form-control input-sm" placeholder="结束日期">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="col-lg-12 input-group-sm">
+                                <div class="col-md-6 col-lg-6">
+                                    <input type="text" id="probootstrap-date-departure"
+                                           class="form-control input-sm" placeholder="开始日期">
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <input type="text" id="probootstrap-date-arrival"
+                                           class="form-control input-sm" placeholder="结束日期">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 col-lg-offset-1">
+                            <btn class="btn btn-info">查询</btn>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-11">
+            <table class="table table-bordered  table-condensed scrolltable">
+                <thead style="display:block">
+                <tr>
+                    <th style="width: 75px;text-align:center">序号</th>
+                    <th style="width: 140px;text-align:center">客户名</th>
+                    <th style="width: 200px;text-align:center">订单号</th>
+                    <th style="width: 200px;text-align:center">订货日期</th>
+                    <th style="width: 200px;text-align:center">交货日期</th>
+                    <th style="width: 200px;text-align:center">备注</th>
+                </tr>
+                </thead>
+                <tbody style="display:block;max-height:400px;overflow-y: scroll;">
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                <tr>
+                    <td style="width: 75px;text-align:center">1</td>
+                    <td style="width: 140px;text-align:center">基于</td>
+                    <td style="width: 200px;text-align:center">JY70525</td>
+                    <td style="width: 200px;text-align:center">2018-5-26</td>
+                    <td style="width: 200px;text-align:center">2018-6-26</td>
+                    <td style="width: 200px;text-align:center">xxx</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+</body>
+<script src="../assets/js/jquery-1.10.2.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/owl.carousel.min.js"></script>
+<script src="../assets/js/bootstrap-datepicker.js"></script>
+<script src="../assets/js/select2.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</html>
