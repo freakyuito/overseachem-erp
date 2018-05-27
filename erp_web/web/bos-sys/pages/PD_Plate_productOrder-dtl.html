@@ -1,0 +1,549 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>cssmoban</title>
+    <!-- Bootstrap Styles-->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet"/>
+    <!-- FontAwesome Styles-->
+    <link href="../assets/css/font-awesome.css" rel="stylesheet"/>
+    <!-- Morris Chart Styles-->
+    <link href="../assets/js/morris/morris-0.4.3.min.css" rel="stylesheet"/>
+    <!-- Custom Styles-->
+    <link href="../assets/css/custom-styles.css" rel="stylesheet"/>
+    <!-- Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="../assets/js/Lightweight-Chart/cssCharts.css">
+</head>
+
+<body>
+<div id="wrapper">
+    <nav class="navbar navbar-default top-navbar" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="login.html"><strong>上海晟海集团</strong></a>
+        </div>
+
+        <ul class="nav navbar-top-links navbar-right">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                    <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-messages">
+                    <li>
+                        <a href="#">
+                            <div>
+                                <strong>总经理</strong>
+                                <span class="pull-right text-muted">
+                                        <em>今天</em>
+                                    </span>
+                            </div>
+                            <div>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <strong>车间主任</strong>
+                                <span class="pull-right text-muted">
+                                        <em>昨天</em>
+                                    </span>
+                            </div>
+                            <div>Lorem Ipsum has been the industry's standard dummy text ever since an kwilnw...</div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <strong>机长</strong>
+                                <span class="pull-right text-muted">
+                                        <em>昨天</em>
+                                    </span>
+                            </div>
+                            <div>Lorem Ipsum has been the industry's standard dummy text ever since the...</div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="text-center" href="#">
+                            <strong>阅读所有信息</strong>
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-messages -->
+            </li>
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                    <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-tasks">
+                    <li>
+                        <a href="#">
+                            <div>
+                                <p>
+                                    <strong>进度1</strong>
+                                    <span class="pull-right text-muted">60% 完成度</span>
+                                </p>
+                                <div class="progress progress-striped active">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60"
+                                         aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                        <span class="sr-only">60% 完成度 (成功)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <p>
+                                    <strong>进度2</strong>
+                                    <span class="pull-right text-muted">28% 完成度</span>
+                                </p>
+                                <div class="progress progress-striped active">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="28"
+                                         aria-valuemin="0" aria-valuemax="100" style="width: 28%">
+                                        <span class="sr-only">28% 完成度</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <p>
+                                    <strong>进度3</strong>
+                                    <span class="pull-right text-muted">60% 完成度</span>
+                                </p>
+                                <div class="progress progress-striped active">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+                                         aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                        <span class="sr-only">60% 完成度 (警告)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <p>
+                                    <strong>进度</strong>
+                                    <span class="pull-right text-muted">85% 完成度</span>
+                                </p>
+                                <div class="progress progress-striped active">
+                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="85"
+                                         aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                                        <span class="sr-only">85% 完成度 (危险)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="text-center" href="#">
+                            <strong>查看所有进度</strong>
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-tasks -->
+            </li>
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                    <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-alerts">
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-comment fa-fw"></i> 新提交
+                                <span class="pull-right text-muted small">4 分钟</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-twitter fa-fw"></i> 3个新追加
+                                <span class="pull-right text-muted small">12 分钟</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-envelope fa-fw"></i> Message Sent
+                                <span class="pull-right text-muted small">4 min</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-tasks fa-fw"></i> 新任务
+                                <span class="pull-right text-muted small">4 分钟</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-upload fa-fw"></i> 服务器重启
+                                <span class="pull-right text-muted small">4 分钟</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="text-center" href="#">
+                            <strong>查看所有警告</strong>
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-alerts -->
+            </li>
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                    <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="#"><i class="fa fa-user fa-fw"></i> 个人档案</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> 设置</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> 登出</a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-user -->
+            </li>
+            <!-- /.dropdown -->
+        </ul>
+    </nav>
+    <!--/. NAV TOP  -->
+    <nav class="navbar-default navbar-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav" id="main-menu">
+                <li>
+                    <a href="#"><i class="fa fa-dashboard"></i> 主页</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-edit"></i> 销售部门<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="#">板材销售<span class="fa arrow"></span></a>
+                            <ul class="nav nav-third-level">
+                                <li>
+                                    <a href="PD_Plate_purchaseOrder-list.html">板材订单列表</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-sitemap"></i> 生产部门<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="#">板材生产<span class="fa arrow"></span></a>
+                            <ul class="nav nav-third-level">
+                                <li>
+                                    <a href="PD_Plate_productOrder-list.html">生产指令列表</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+    <!-- /. NAV SIDE  -->
+
+    <div id="page-wrapper">
+        <div class="header">
+            <h1 class="page-header">
+                板材生产
+                <small>生产指令单明细</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#">主页</a></li>
+                <li>生产部门</li>
+                <li>板材部门</li>
+            </ol>
+        </div>
+
+        <div id="page-inner">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Advanced Tables -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            基础信息
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-condensed">
+                                <thead>
+                                <tr>
+                                    <th style="text-align: center">产品纹路</th>
+                                    <th style="text-align: center">机台号</th>
+                                    <th style="text-align: center">订单号</th>
+                                    <th style="text-align: center">指令单号</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td style="text-align: center">大钻石纹</td>
+                                    <td style="text-align: center">待确认</td>
+                                    <td style="text-align: center">JY180008</td>
+                                    <td style="text-align: center">JY180008-V28</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            产品规格
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-condensed table-hover" id="dataTables-example">
+                                    <thead>
+                                    <tr>
+                                        <th style="text-align: center">颜色</th>
+                                        <th style="text-align: center">规格</th>
+                                        <th style="text-align: center">进度</th>
+                                        <th style="text-align: center">批号</th>
+                                        <th style="text-align: center">操作</th>
+                                        <th style="text-align: center">附属单</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td style="text-align: center" rowspan="3">V28蓝色</td>
+                                        <td style="text-align: center">660*480*2.4</td>
+                                        <td style="text-align: center">280/650</td>
+                                        <td style="text-align: center">JY180004</td>
+                                        <td style="text-align: center">
+                                            <btn class="btn btn-warning btn-sm">暂停</btn>
+                                        </td>
+                                        <td style="text-align: center">
+                                            <a href="#">装箱</a>
+                                            <a href="#">质检</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center">740*540*2.6</td>
+                                        <td style="text-align: center">280/650</td>
+                                        <td style="text-align: center">JY180005</td>
+                                        <td style="text-align: center">
+                                            <btn class="btn btn-primary btn-sm">开始</btn>
+                                        </td>
+                                        <td style="text-align: center">
+                                            <a href="#">装箱</a>
+                                            <a href="#">质检</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center">740*540*2.6</td>
+                                        <td style="text-align: center">280/650</td>
+                                        <td style="text-align: center">JY180005</td>
+                                        <td style="text-align: center">
+                                            <btn class="btn btn-info btn-sm">继续</btn>
+                                        </td>
+                                        <td style="text-align: center">
+                                            <a href="#">装箱</a>
+                                            <a href="#">质检</a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            生产工艺
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-condensed">
+                                    <thead>
+                                    <tr>
+                                        <th style="text-align: center">颜色</th>
+                                        <th style="text-align: center">计量泵转速</th>
+                                        <th style="text-align: center">色母转速</th>
+                                        <th style="text-align: center">色母配方</th>
+                                        <th style="text-align: center">用膜</th>
+                                        <th style="text-align: center">压纹</th>
+                                        <th style="text-align: center">格子</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td style="text-align: center">V28蓝色</td>
+                                        <td style="text-align: center">22转</td>
+                                        <td style="text-align: center">5转</td>
+                                        <td style="text-align: center">金珠黑色</td>
+                                        <td style="text-align: center">V28镀铝膜</td>
+                                        <td style="text-align: center">...</td>
+                                        <td style="text-align: center">...</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            质量要求
+                        </div>
+                        <div class="panel-body">
+                            <small>
+                                (1)&nbsp厚度&nbsp±0.10mm&nbsp&nbsp长度&nbsp+5mm&nbsp&nbsp宽度&nbsp+5mm；<br>
+                                (2)&nbsp普通贴膜&nbsp保护膜有效宽度根据板材宽度，两端各3cm，保护膜位置居中；<br>
+                                (3)板面伍划痕，无杂物；<br>
+                                (4)表面压纹要清晰，纹路深度10丝以上；<br>
+                                (5)厚度均匀，覆膜一定要牢，板膜不允许有剥离现象，板面无水波纹，无发花现象；<br>
+                                (6)产品无明显色差，包装要好，记录字迹要清晰，装箱单总计一定准备无误；<br>
+                                (7)板材质量：需符合出厂检验标准，未达到的不允许出厂；<br>
+                                (8)薄膜厚度：20丝，确保纹路符合客户要求；<br>
+                                (9)颜色根据色号或来样生产，不能有色差；<br>
+                                (10)耐温提高5℃，模量增加10%，必须通过我司测试：23~25KGs摔箱测试不破裂， 冷冻零下15℃摔箱测试不破裂等符合国家箱包标准。
+                            </small>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            署名区
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table ">
+                                    <thead>
+                                    <tr>
+                                        <th style="text-align: center">主管审批</th>
+                                        <th style="text-align: center">接收人</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td style="text-align: center">
+                                            <btn class="btn btn-primary">署名</btn>
+                                        </td>
+                                        <td style="text-align: center">
+                                            <btn class="btn btn-primary">接收</btn>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            公告区
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5"></textarea>
+                                <input class="form-control"/><btn class="btn btn-primary pull-right">发送</btn>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            操作记录
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th style="text-align: center">时间</th>
+                                        <th style="text-align: center">操作人</th>
+                                        <th style="text-align: center">句柄</th>
+                                        <th style="text-align: center">原因</th>
+                                        <th style="text-align: center">内容</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td style="text-align: center">2018-04-20 12:35:00</td>
+                                        <td style="text-align: center">xxx</td>
+                                        <td style="text-align: center">开始生产</td>
+                                        <td style="text-align: center">无</td>
+                                        <td style="text-align: center">JY180004批次开始生产</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer/>
+        </div>
+
+    </div>
+</div>
+<!-- /. WRAPPER  -->
+<!-- JS Scripts-->
+<!-- jQuery Js -->
+<script src="../assets/js/jquery-1.10.2.js"></script>
+<!-- Bootstrap Js -->
+<script src="../assets/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Js -->
+<script src="../assets/js/jquery.metisMenu.js"></script>
+<!-- Morris Chart Js -->
+<script src="../assets/js/morris/raphael-2.1.0.min.js"></script>
+<script src="../assets/js/morris/morris.js"></script>
+
+
+<script src="../assets/js/easypiechart.js"></script>
+<script src="../assets/js/easypiechart-data.js"></script>
+
+<script src="../assets/js/Lightweight-Chart/jquery.chart.js"></script>
+
+<!-- Custom Js -->
+<script src="../assets/js/custom-scripts.js"></script>
+
+<script>
+
+</script>
+
+</body>
+
+</html>
