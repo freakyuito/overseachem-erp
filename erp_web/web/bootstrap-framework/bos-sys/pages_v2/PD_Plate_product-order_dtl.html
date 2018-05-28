@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>板材订单列表</title>
+    <link href="../assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../assets/css/font-awesome.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../assets/css/bootstrap-datepicker.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1 class="page-header">
+            生产指令单管理
+            <small>生产指令单明细</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#">主页</a></li>
+            <li><a href="#">生产部门</a></li>
+            <li class="active">板材生产</li>
+        </ol>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            基础信息
+        </div>
+        <div class="panel-body">
+            <table class="table table-condensed">
+                <thead>
+                <tr>
+                    <th style="text-align: center">品名</th>
+                    <th style="text-align: center">机台号</th>
+                    <th style="text-align: center">订单号</th>
+                    <th style="text-align: center">指令单号</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td style="text-align: center">PET小钻石纹</td>
+                    <td style="text-align: center">7号</td>
+                    <td style="text-align: center">DX689</td>
+                    <td style="text-align: center">DX689-V28蓝色</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">产品规格明细</div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table table-bordered table-condensed table-hover" id="dataTables-example">
+                    <thead>
+                    <tr>
+                        <th style="text-align: center">颜色</th>
+                        <th style="text-align: center">长(mm)</th>
+                        <th style="text-align: center">宽(mm)</th>
+                        <th style="text-align: center">高(mm)</th>
+                        <th style="text-align: center">进度</th>
+                        <th style="text-align: center">估重</th>
+                        <th style="text-align: center">批号</th>
+                        <th style="text-align: center">操作</th>
+                        <th style="text-align: center">附属单</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td style="text-align: center" rowspan="3">V28蓝色</td>
+                        <td style="text-align: center">660</td>
+                        <td style="text-align: center">480</td>
+                        <td style="text-align: center">2.4</td>
+                        <td style="text-align: center">280/650</td>
+                        <td style="text-align: center">280/650</td>
+                        <td style="text-align: center">JY180004</td>
+                        <td style="text-align: center">
+                            <btn class="btn btn-warning btn-sm">暂停</btn>
+                        </td>
+                        <td style="text-align: center">
+                            <a href="#">装箱</a>
+                            <a href="#">质检</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">660</td>
+                        <td style="text-align: center">480</td>
+                        <td style="text-align: center">2.4</td>
+                        <td style="text-align: center">280/650</td>
+                        <td style="text-align: center">280/650</td>
+                        <td style="text-align: center">JY180005</td>
+                        <td style="text-align: center">
+                            <btn class="btn btn-primary btn-sm">开始</btn>
+                        </td>
+                        <td style="text-align: center">
+                            <a href="#">装箱</a>
+                            <a href="#">质检</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">660</td>
+                        <td style="text-align: center">480</td>
+                        <td style="text-align: center">2.4</td>
+                        <td style="text-align: center">280/650</td>
+                        <td style="text-align: center">280/650</td>
+                        <td style="text-align: center">JY180005</td>
+                        <td style="text-align: center">
+                            <btn class="btn btn-info btn-sm">继续</btn>
+                        </td>
+                        <td style="text-align: center">
+                            <a href="#">装箱</a>
+                            <a href="#">质检</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            生产工艺
+        </div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table table-bordered table-condensed">
+                    <thead>
+                    <tr>
+                        <th style="text-align: center;width: 130px">颜色</th>
+                        <th style="text-align: center;width: 140px">计量泵转速</th>
+                        <th style="text-align: center;width: 140px">色母转速</th>
+                        <th style="text-align: center;width: 250px">色母配方</th>
+                        <th style="text-align: center;width: 150px">用膜</th>
+                        <th style="text-align: center;width: 100px">压纹</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td style="text-align: center">V28蓝色</td>
+                        <td style="text-align: center">22转</td>
+                        <td style="text-align: center">5转</td>
+                        <td style="text-align: center">金珠黑色</td>
+                        <td style="text-align: center">V28镀铝膜</td>
+                        <td style="text-align: center">...</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            质量要求
+        </div>
+        <div class="panel-body">
+            <small>
+                (1)&nbsp厚度&nbsp±0.10mm&nbsp&nbsp长度&nbsp+5mm&nbsp&nbsp宽度&nbsp+5mm；<br>
+                (2)&nbsp普通贴膜&nbsp保护膜有效宽度根据板材宽度，两端各3cm，保护膜位置居中；<br>
+                (3)板面伍划痕，无杂物；<br>
+                (4)表面压纹要清晰，纹路深度10丝以上；<br>
+                (5)厚度均匀，覆膜一定要牢，板膜不允许有剥离现象，板面无水波纹，无发花现象；<br>
+                (6)产品无明显色差，包装要好，记录字迹要清晰，装箱单总计一定准备无误；<br>
+                (7)板材质量：需符合出厂检验标准，未达到的不允许出厂；<br>
+                (8)薄膜厚度：20丝，确保纹路符合客户要求；<br>
+                (9)颜色根据色号或来样生产，不能有色差；<br>
+                (10)耐温提高5℃，模量增加10%，必须通过我司测试：23~25KGs摔箱测试不破裂， 冷冻零下15℃摔箱测试不破裂等符合国家箱包标准。
+            </small>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            核审
+        </div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table ">
+                    <thead>
+                    <tr>
+                        <th style="text-align: center">主管审批</th>
+                        <th style="text-align: center">接收人</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td style="text-align: center">
+                            <btn class="btn btn-primary btn-sm">署名</btn>
+                        </td>
+                        <td style="text-align: center">
+                            <btn class="btn btn-primary btn-sm">接收</btn>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            公告区
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <textarea class="form-control" rows="5" readonly="readonly"></textarea>
+                <table class="table">
+                    <thead></thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <input class="form-control"/>
+                        </td>
+                        <td>
+                            <btn class="btn btn-primary">发送</btn>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            操作记录
+        </div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th style="text-align: center">时间</th>
+                        <th style="text-align: center">操作人</th>
+                        <th style="text-align: center">句柄</th>
+                        <th style="text-align: center">原因</th>
+                        <th style="text-align: center">内容</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td style="text-align: center">2018-04-20 12:35:00</td>
+                        <td style="text-align: center">xxx</td>
+                        <td style="text-align: center">开始生产</td>
+                        <td style="text-align: center">无</td>
+                        <td style="text-align: center">JY180004批次开始生产</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script src="../assets/js/jquery-1.10.2.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/owl.carousel.min.js"></script>
+<script src="../assets/js/bootstrap-datepicker.js"></script>
+<script src="../assets/js/select2.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</html>
