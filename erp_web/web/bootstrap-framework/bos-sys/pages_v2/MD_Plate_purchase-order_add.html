@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>板材订单列表</title>
+    <link href="../assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../assets/css/font-awesome.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../assets/css/bootstrap-datepicker.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1 class="page-header">
+            板材订单管理
+            <small>新增板材订单</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#">主页</a></li>
+            <li><a href="#">销售部门</a></li>
+            <li class="active">板材销售</li>
+        </ol>
+    </div>
+    <div class="col-lg-11">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                基础信息
+            </div>
+            <div class="panel-body">
+                <table class="table table-condensed">
+                    <thead>
+                    <tr>
+                        <th style="text-align: center">订单号</th>
+                        <th style="text-align: center">客户名称</th>
+                        <th style="text-align: center">订货日期</th>
+                        <th style="text-align: center">交货日期</th>
+                        <th style="text-align: center">合同号</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td style="text-align: center">
+                            <input class="form-control input-sm">
+                        </td>
+                        <td style="text-align: center">
+                            <input class="form-control input-sm">
+                        </td>
+                        <td style="text-align: center">
+                            <input type="text" id="probootstrap-date-departure"
+                                   class="form-control input-sm" style="text-align: center" placeholder="开始日期">
+                        </td>
+                        <td style="text-align: center">
+                            <input type="text" id="probootstrap-date-arrival"
+                                   class="form-control input-sm" style="text-align: center" placeholder="开始日期">
+                        </td>
+                        <td style="text-align: center"><input class="form-control input-sm"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-11">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                详细信息
+
+                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal_addSpec">
+                    <i class="fa fa-plus "></i>
+                </button>
+
+                <label style="padding-left: 650px">备注</label><input class="form-control pull-right input-sm"
+                                                                    style="width: 200px" placeholder="请填写备注">
+            </div>
+            <div class="panel-body">
+
+                <div class="table-responsive">
+                    <table class="table table-hover table-condensed" id="dataTables-example">
+                        <thead>
+                        <tr>
+                            <th style="text-align: center;width: 80px">序号</th>
+                            <th style="text-align: center;width: 130px">品名</th>
+                            <th style="text-align: center;width: 120px">颜色</th>
+                            <th style="text-align: center;width: 85px;">长(mm)</th>
+                            <th style="text-align: center;width: 85px">宽(mm)</th>
+                            <th style="text-align: center;width: 85px;">厚(mm)</th>
+                            <th style="text-align: center;width: 100px">数量（张）</th>
+                            <th style="text-align: center;width: 100px">单价(元/kg)</th>
+                            <th style="text-align: center"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td style="text-align: center"><input
+                                    class="form-control input-sm" style="text-align: center" readonly="readonly"
+                                    placeholder="1"/></td>
+                            <td style="text-align: center">
+                                <div class="form-group-sm">
+                                    <select class="form-control">
+                                        <option>PET大钻石纹</option>
+                                        <option>PET编织纹</option>
+                                        <option>PET小钻石纹</option>
+                                        <option>PET电子纹</option>
+                                        <option>PET炫彩</option>
+                                        <option>PET顶峰纹</option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td style="text-align: center"><input
+                                    class="form-control input-sm" style="text-align: center"/></td>
+                            <td style="text-align: center"><input class="form-control input-sm"
+                                                                  style="text-align: center"/></td>
+                            <td style="text-align: center"><input class="form-control input-sm"
+                                                                  style="text-align: center"/></td>
+                            <td style="text-align: center"><input class="form-control input-sm"
+                                                                  style="text-align: center"/></td>
+                            <td style="text-align: center"><input class="form-control input-sm"
+                                                                  style="text-align: center"/></td>
+                            <td style="text-align: center"><input class="form-control input-sm"
+                                                                  style="text-align: center"/></td>
+                            <td style="text-align: center">
+                                <button type="button" class="btn btn-danger btn-sm btn-circle" data-toggle="modal"
+                                        data-target="#myModal_deleteSpec01"><i class="fa fa-cut "></i>
+                                </button>
+                                <!-- 模态框（Modal） -->
+                                <div class="modal fade" id="myModal_deleteSpec01" tabindex="-1"
+                                     role="dialog"
+                                     aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-hidden="true">
+                                                    &times;
+                                                </button>
+                                                <h4 class="modal-title" id="myModalLabel_deleteSpec01">
+                                                    删除条目</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                确认删除该条数据？
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default"
+                                                        data-dismiss="modal">关闭
+                                                </button>
+                                                <button type="button" class="btn btn-danger">删除</button>
+                                            </div>
+                                        </div><!-- /.modal-content -->
+                                    </div><!-- /.modal -->
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-11">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <div class="col-lg-2">
+                                    <label>导入合同</label>
+                                    <input type="file">
+                                </div>
+                            </td>
+                            <td>
+
+                                <button class="btn btn-primary pull-right" data-toggle="modal"
+                                        data-target="#myModal_submit"><i class="fa fa-upload "></i>提交
+                                </button>
+                                <!-- 模态框（Modal） -->
+                                <div class="modal fade" id="myModal_submit" tabindex="-1" role="dialog"
+                                     aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-hidden="true">
+                                                    &times;
+                                                </button>
+                                                <h4 class="modal-title" id="myModalLabel_submit">
+                                                    提交表单</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                确认提交吗？
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default"
+                                                        data-dismiss="modal">关闭
+                                                </button>
+                                                <button type="button" class="btn btn-primary">提交</button>
+                                            </div>
+                                        </div><!-- /.modal-content -->
+                                    </div><!-- /.modal -->
+                                </div>
+
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+<script src="../assets/js/jquery-1.10.2.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/owl.carousel.min.js"></script>
+<script src="../assets/js/bootstrap-datepicker.js"></script>
+<script src="../assets/js/select2.min.js"></script>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/jquery.metisMenu.js"></script>
+</html>
